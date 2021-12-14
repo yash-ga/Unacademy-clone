@@ -38,11 +38,12 @@ const Goal = () => {
                         </div>
                         <div class="row">
                             <GoalCard3/>
+
                         </div>
+
                     </div>
                 </div>
             </div>
-            <div></div>
         </div>
     )
 }
