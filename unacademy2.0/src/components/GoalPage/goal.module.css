@@ -1,0 +1,130 @@
+#box1{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 11px 0px 11px 13px;
+    width: 252px;
+    height: 47px;
+   
+    border-radius: 6px;
+    font-family: Urbanist;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    margin: 16px 0px;
+}
+
+#box1:hover{
+    background: #ECECEC;
+    box-shadow: 10px 10px 100px rgba(0, 0, 0, 0.05);
+}
+
+#box2{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 11px 0px 11px 13px;
+    width: 252px;
+    height: 47px;
+    color: #909090;
+    border-radius: 6px;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    margin: 16px 0px;
+}
+#box2:hover{
+    background: #ECECEC;
+    box-shadow: 10px 10px 100px rgba(0, 0, 0, 0.10);
+}
+
+#cbscText{
+    width: 51px;
+    height: 30px;
+    margin-top: 16px;
+    font-family: Urbanist;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #394752;
+}
+
+#rightBox{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 23px 24px;
+    width: 284px;
+    height: 151px;
+    margin-left: 0px;
+    margin-top: 32px;
+    margin-right: 32px;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 100px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+}
+
+#rightBox:hover{
+    background-color: #EDFFFA;
+}
+
+
+#class6{
+    width: 236px;
+    /* left: calc(50% - 236px/2);
+    top: 68.21%;
+    bottom: 15.23%; */
+    font-family: Urbanist;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #394752;
+    margin: 20px 0px;
+}
+
+
+
+#mhStateBoard{
+    width: 260px;
+    height: 30px;
+    font-family: Urbanist;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #394752;
+    margin-top: 80px;
+}
+
+#foundation{
+    width: 330px;
+    height: 30px;
+    font-family: Urbanist;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #394752;
+    margin-top: 80px;
+}
