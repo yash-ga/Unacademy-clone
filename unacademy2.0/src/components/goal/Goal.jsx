@@ -3,6 +3,7 @@ import GoalCard from './GoalCard'
 import GoalCard1 from './GoalCard1'
 import GoalCard2 from './GoalCard2'
 import GoalCard3 from './GoalCard3'
+
 const Goal = () => {
     return (
         <div>
