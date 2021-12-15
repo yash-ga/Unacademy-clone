@@ -1,0 +1,86 @@
+.startlearning {
+    width: 570px;
+    position: relative;
+    height: 402px;
+    padding-left: 48px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    color: #394752;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    background-color: white;
+    filter: drop-shadow(10px 10px 100px rgba(92, 190, 129, 0.1));
+    margin-right: 100px;
+
+}
+
+.startlearning img{
+    position: absolute;
+    width: 240px;
+    right: 0;
+    bottom: 0;
+}
+ .startlearning_content>p:nth-child(1){ 
+    position: absolute;
+    top: 46px;
+    font-weight: normal;
+    font-size: 32px;
+    margin: 0px;
+}
+
+.startlearning_content>p:nth-child(2){
+    position: absolute;
+    top: 97px;
+    font-weight: bold;
+    font-size: 32px;
+    margin: 0px;
+}
+
+.startlearning_content>p:nth-child(3){
+    position: absolute;
+    top: 154px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+    color: #909090;
+    margin: 0px;
+}
+
+.startlearning_courses{
+    position: absolute;
+    top: 193px;
+    display: flex;
+}
+
+.startlearning_courses>span{
+    padding: 0px;
+    color: #5CBE81;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+    margin-right: 40px;
+}
+
+.startlearning_btn{
+    position: absolute;
+    top: 290px;
+}
+
+.startlearning_btn>button{
+    width: 187px;
+    height: 54px;
+    left: 48px;
+    bottom: 55px;
+    background-color: #5CBE81;
+    color: white;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.startlearning_btn>button:hover{
+    background-color: rgb(69, 69, 235);
+}

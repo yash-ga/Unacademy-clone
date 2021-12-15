@@ -1,0 +1,26 @@
+.landingpg_4{
+    width: 92%;
+    margin-left: 90px;
+    margin-bottom: 100px;
+}
+
+.lpg_4_box1{
+    margin-top: 207px;
+}
+
+.lpg_4_box1>p:nth-child(1){
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 60px;
+    letter-spacing: 0.02em;
+    color: #394752;
+    margin-bottom: 32px;
+}
+
+.lpg_4_box1>p:nth-child(2){
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    color: #394752;
+}

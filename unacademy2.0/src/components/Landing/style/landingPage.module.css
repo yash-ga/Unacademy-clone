@@ -1,0 +1,19 @@
+
+.backToTop_btn{
+text-align: center;
+}
+
+.backToTop_btn>button{
+    background: #FFFFFF;
+    color: #5CBE81;
+    box-shadow: inset 0px -1px 0px #5CBE81, inset -1px 0px 0px #5CBE81, inset 0px 1px 1px #5CBE81, inset 1px 0px 0px #5CBE81;
+    border-radius: 5px;
+    padding: 8px 16px;
+    font-weight: 900;
+    font-size: 12px;
+    border: 0px;
+}
+
+.backToTop_btn>button:hover{
+    color: #94d1ad;
+}

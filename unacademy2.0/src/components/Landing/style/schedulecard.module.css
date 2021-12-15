@@ -1,0 +1,26 @@
+/* style={{width: "350px",border:"0px"}} */
+
+.schedule_card_container{
+    width: 320px;
+    border: 0px;
+}
+
+/* .schedule_card_container img{
+    padding: 10px;
+} */
+
+.schedule_card_container>.title>p:nth-child(1){
+    font-weight: bold;
+    font-size: 16px; 
+    line-height: 30px;
+    margin-top: 5px;
+    color: #394752;
+}
+
+.schedule_card_container>.title>p:nth-child(2){
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #394752;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,72 @@
+.landing1_container{
+    position: relative;
+    overflow-x: hidden;
+}
+
+.bkg_img_lpg1{
+    height: 969px;
+    width: 100%;
+}
+
+.navbar_ldpg{
+    position: absolute;
+    height: 81px;
+    width: 100%;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    margin: 0px;
+}
+
+.navbar_ldpg img{
+    padding: 22px;
+    padding-left: 104px;
+}
+
+.navbar_ldpg div:nth-child(2){
+    padding: 22px;
+    padding-right: 106px;
+}
+
+.navbar_ldpg button{
+    width: 85px;
+    height: 37px;
+    background-color: #5CBE81;
+    border: 0px;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.navbar_ldpg button:hover{
+    background-color: rgb(69, 69, 235);
+}
+
+.ldpg_content{
+    position: absolute;
+    width: 500px;
+    color: #394752;
+    left: 104px;
+    top: 218px;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 70px;
+}
+
+.prepare_container{
+    position: absolute;
+    /* width: 600px; */
+    height: 402px;
+    left: 90px;
+    top: 478px;
+    display: grid;
+    grid-template-columns: 540px 540px 20px ;
+    gap: 50px;
+}
+
+.prepare_container>.call_icon{
+    margin-top: 165px;
+}
