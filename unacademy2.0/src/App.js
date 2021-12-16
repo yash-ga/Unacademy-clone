@@ -7,9 +7,9 @@ import {Cbsc12} from './components/class12/Cbsc12'
 function App() {
   return (
     <div>
-     {/* <LandingPage/> */}
+     <LandingPage/>
       {/* <Goal/> */}
-      <Cbsc12 />
+      {/* <Cbsc12 /> */}
      
     </div>
   );
