@@ -1,0 +1,260 @@
+.main{
+    position: absolute;
+    width: 1129px;
+    left: 80px;
+    margin-top: 1200px;
+
+}
+
+.main > :nth-child(1){
+    /* font-family: Urbanist; */
+    font-style: normal;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #394752;
+    margin-left: 6%;
+
+}
+.main > :nth-child(2){
+    /* font-family: Urbanist; */
+    font-style: normal;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #394752;
+    margin-bottom: 10vh;
+    margin-left: 6%;
+
+
+}
+
+.main > :nth-child(3){
+    position: absolute;
+    cursor: pointer;
+left: 79.22%;
+right: 2.92%;
+/* top: 10.91%; */
+top: 12%;
+/* bottom: 77.29%; */
+
+/* H2/BOLD */
+
+/* font-family: Urbanist; */
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 40px;
+/* identical to box height, or 125% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.02em;
+
+/* PRIMARY/Academy green */
+
+color: #5CBE81;
+}
+
+
+.slider3{
+    display: flex;
+    position: relative;
+    /* border: 2px solid blACK; */
+
+  /* justify-content: center; */
+  /* align-items: center; */
+  width: 463px;
+  height: 192px;
+  /* height: 200px; */
+  background-color: #FFFFFF;
+  border-radius: 12PX;
+  margin: 10px;
+  /* width: 320px; */
+  
+  box-shadow:  0 1px 6px rgb(31 31 31 / 12%), 0 1px 4px rgb(31 31 31 / 12%);
+  /* box-shadow: 10px 10px 100px rgba(0, 0, 0, 0.05); */
+    cursor: pointer;
+    flex-direction: row;
+       /* Pass through */
+    /* text-align: center; */
+
+
+}
+
+.pic{
+    
+    height: 144PX;
+    width: 256PX;
+    border: 8px;
+    
+    /* background: #EDFFFA; */
+    
+}
+.pic > img{
+     /* height: 171PX; */
+     position: absolute;
+     top: 10%;
+     right: 0%;
+     left: -13%;
+     bottom: 0%;
+     height: 80%;
+    width: 256px;
+    border-radius: 8px 8px 8px 8px;
+
+}
+
+.part2{
+    display: flex;
+    flex-direction: column;
+}
+
+.courseSoonTop{
+    display: flex;
+    flex-direction: row;
+}
+
+.courseSoonTop > p {
+    margin: 0px 15px;
+}
+.courseSoonTop > :nth-child(1){
+    /* color: red; */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px 10px;
+
+position: absolute;
+width: 63px;
+height: 20px;
+/* left: 256px; */
+left: 220px;
+top: 24px;
+
+/* EXTENSDED PALETTE/Tiny white */
+
+background: #ECECEC;
+border-radius: 4px;
+}
+
+.courseSoonTop > :nth-child(2){
+position: absolute;
+width: 70px;
+height: 15px;
+left: 333px;
+top: 24px;
+
+/* SUBTITLE/BOLD */
+
+/* font-family: Urbanist; */
+font-style: normal;
+font-weight: 900;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height, or 125% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.02em;
+
+/* SECONDARY/Academy blue */
+
+color: #445FF4;
+}
+
+.courseSoonBotm{
+    display: flex;
+    flex-direction: column;
+
+}
+.courseSoonBotm > :nth-child(1){
+    color: red;
+    position: absolute;
+width: 200px;
+height: 50px;
+right: 32px;
+top: 57px;
+
+/* H5/BOLD */
+
+/* font-family: Urbanist; */
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 25px;
+/* or 156% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.02em;
+
+/* PRIMARY/Polish dark */
+
+color: #394752;
+
+}
+
+.courseSoonBotm > :nth-child(2){
+    position: absolute;
+/* width: 174px; */
+height: 15px;
+/* left: 256px; */
+left: 230px;
+top: 111px;
+
+/* SUBTITLE/LIGHT */
+
+/* font-family: Urbanist; */
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height, or 125% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.02em;
+
+/* EXTENSDED PALETTE/Tiny grey */
+
+color: #909090;
+}
+
+
+.courseSoonBotm > :nth-child(3){
+    position: absolute;
+width: 92px;
+height: 15px;
+left: 256px;
+left: 230px;
+bottom: 26px;
+
+/* SUBTITLE/LIGHT */
+
+/* font-family: Urbanist; */
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height, or 125% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.02em;
+
+/* EXTENSDED PALETTE/Tiny grey */
+
+color: #909090;
+}
+
+
+.slider3:hover{
+background-color: #d6f1f5;
+
+}

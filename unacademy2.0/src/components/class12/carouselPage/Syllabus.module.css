@@ -1,0 +1,89 @@
+.main{
+    position: absolute;
+    width: 1129px;
+    left: 80px;
+    margin-top: 2550px;
+
+}
+
+.main > :nth-child(1){
+    /* font-family: Urbanist; */
+    font-style: normal;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #394752;
+    margin-left: 6%;
+
+}
+.main > :nth-child(2){
+    /* font-family: Urbanist; */
+    font-style: normal;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #394752;
+    margin-bottom: 10vh;
+    margin-left: 6%;
+
+
+}
+
+.main > :nth-child(3){
+    position: absolute;
+    cursor: pointer;
+left: 79.22%;
+right: 2.92%;
+top: 10.91%;
+/* top: 11%; */
+bottom: 77.29%;
+
+/* H2/BOLD */
+
+/* font-family: Urbanist; */
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 40px;
+/* identical to box height, or 125% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.02em;
+
+/* PRIMARY/Academy green */
+
+color: #5CBE81;
+}
+
+
+.slider7{
+    /* border: 2px solid black; */
+     /* position: absolute; */
+    /* width: 284px; */
+    height: 320px;
+    /* left : 0px; */
+    /* top:0px; */
+    background: #FFFFFF;
+    cursor: pointer;
+    /* border-radius: 10px; */
+}
+.slider7 > img {
+    box-shadow:  0 1px 6px rgb(31 31 31 / 12%), 0 1px 4px rgb(31 31 31 / 12%);
+
+}
+
+.slider7 > img :hover{
+    background-color: burlywood;
+}
+
+.slider8 :hover{
+background-color: #d6f1f5;
+
+}
