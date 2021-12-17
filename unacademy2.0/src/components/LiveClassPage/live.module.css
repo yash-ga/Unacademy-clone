@@ -1,0 +1,411 @@
+#home{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    padding: 11px 0px 11px 13px;
+    /* position: absolute; */
+    width: 200px;
+    height: 47px;
+    /* left: 104px;
+    top: 146px; */
+    background: #FFFFFF;
+    border-radius: 6px;
+    margin-top: 18px;
+}
+
+#home:hover{
+    background: #ECECEC;
+    box-shadow: 10px 10px 100px rgba(0, 0, 0, 0.10);
+}
+
+#homeImg{
+   margin-right: 10px;
+}
+
+#homeText{
+    width: 185px;
+    height: 25px;
+    /* left: 45px;
+    top: 11px; */
+    font-family: Urbanist;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 25px;
+    /* display: flex; */
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #394752;
+}
+
+#selfStudy{
+    font-family: Urbanist;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #909090;
+    margin-left: 20px;
+    margin-top: 28px;
+}
+
+#cbseNavCard{
+    /* display: flex;
+flex-direction: column;
+align-items: flex-start; */
+padding: 48px 80px 44px;
+
+
+width: 916px;
+height: 152px;
+left: 420px;
+top: 146px;
+
+/* PRIMARY/Pearl white */
+
+background: #FFFFFF;
+/* DROP SHADOW/LIGHT */
+
+box-shadow: 10px 10px 100px rgba(0, 0, 0, 0.05);
+border-radius: 10px;
+}
+
+#cbse12{
+width: 500px;
+height: 40px;
+font-family: Urbanist;
+font-style: normal;
+font-weight: bold ;
+font-size: 32px;
+line-height: 40px;
+display: flex;
+/* align-items: center; */
+letter-spacing: 0.02em;
+color: #394752;
+margin-top: 15px;
+margin-left: 0px;
+}
+
+#live{
+    width: 210px;
+    height: 30px;
+    font-family: Urbanist;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #394752;
+    margin-top: 80px;
+    margin-left:20px;
+    margin-bottom: 50px;
+}
+
+
+
+#drop{
+    filter: drop-shadow(10px 10px 100px rgba(0, 0, 0, 0.05));
+}
+
+#livecard{
+    width: 18rem;
+    border: none;
+    background: "#FFFFFF"; 
+    margin-left:20px;
+    padding: 0px;
+}
+
+
+#imgdiv{
+ border-top-left-radius: 10px;
+ border-top-right-radius: 10px;
+}
+
+#subjectDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    width: 149px;
+    height: 15px;
+    margin: 6px 0px;
+}
+
+#subject{
+    width: 70px;
+    height: 11px;
+    left: 79px;
+    top: 0px;
+    font-family: Urbanist;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+    color: #445FF4;
+    margin: 16px 16px;
+}
+
+#title{
+width: 252px;
+height: 50px;
+font-family: Urbanist;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 25px;
+color: #394752;
+letter-spacing: 0.02em;
+margin: 6px 0px;
+}
+
+#subtitle{
+    width: 252px;
+    height: 30px;
+    font-family: Urbanist;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #394752;
+    margin: 6px 0px;
+}
+
+#testSeries{
+width: 284px;
+height: 192px;
+background: #FFFFFF;
+box-shadow: 10px 10px 100px rgba(0, 0, 0, 0.05);
+border-radius: 6px;
+margin-left:25px;
+
+}
+
+#testSeries:hover{
+    background-color: #EDFFFA;
+}
+
+.extended{
+    width: 284px;
+    height: 8px;
+    background-color: #ECECEC;
+    margin-left: -12px;
+    margin-bottom: 21px;
+    border-top-left-radius: 5px;
+ border-top-right-radius: 5px;
+}
+
+.term1{
+width: 210px;
+height: 30px;
+font-family: Urbanist;
+font-style: normal;
+font-weight: 900;
+font-size: 12px;
+line-height: 15px;
+align-items: center;
+letter-spacing: 0.02em;
+margin-bottom: 24px;
+
+
+
+
+/* PRIMARY/Polish dark */
+
+color: #394752;
+}
+
+.freelabel{
+    /* display: flex;
+flex-direction: row;
+align-items: flex-start; */
+padding: 0px 10px;
+width: 60px;
+height: 30px;
+/* left: 16px;
+top: 83px; */
+
+/* SECONDARY/Tomato red */
+
+background: #E95952;
+border-radius: 4px;
+/* left: 16.67%;
+right: 16.67%; */
+top: 0%;
+bottom: 0%;
+font-family: Urbanist;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 30px;
+/* display: flex; */
+align-items: center;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+margin: 0px 0px
+}
+
+.test17{
+    /* position: absolute; */
+width: 128px;
+height: 15px;
+left: 16px;
+bottom: 18px;
+font-family: Urbanist;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+display: flex;
+align-items: center;
+letter-spacing: 0.02em;
+color: #394752;
+margin-top: 46px;
+}
+
+#featuredCard{
+    width: 389px;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 100px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    border: none;
+}
+
+#featuredCard:hover{
+    background-color: #EDFFFA;
+}
+
+#featuredImg{
+    width: 59px;
+    height: 59px;
+    margin: 24px;
+}
+
+.featuredName{
+width: 117px;
+height: 25px;
+font-family: Urbanist;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 25px;
+align-items: center;
+letter-spacing: 0.02em;
+color: #394752;
+margin: 19px 0px;
+}
+
+#featuredBody{
+    margin-left: -35px;
+    margin-top: -10px;
+}
+
+.featuredText{
+    width: 286px;
+    height: 45px;
+    left: 0px;
+    top: 44px;
+    font-family: Urbanist;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #909090;
+    margin: 19px 0px;
+}
+
+.featuredBox{
+    width: 110px;
+    display: flex;
+    font-family: Urbanist;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+    justify-content: space-between;
+}
+
+.featuredRating{
+    width: 135px;
+    display: flex;
+    font-family: Urbanist;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #909090;
+    justify-content: space-between;  
+}
+
+#expertBox{
+    width: 916px;
+    height: 237px;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 100px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    border: none;
+}
+
+#expertImg{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-left: 150px;
+    border-radius: 0px;
+}
+
+.getSub{
+    width: 503px;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+    font-family: Urbanist;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #394752;
+    margin: 24px 0px;
+}
+
+.getAnswer{
+    font-family: Urbanist;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #394752;
+    margin-bottom: 20px;
+}
+
+#talkExpert{
+    font-family: Urbanist;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 12px;
+    line-height: 15px;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    background-color: #5CBE81;;
+    
+}
