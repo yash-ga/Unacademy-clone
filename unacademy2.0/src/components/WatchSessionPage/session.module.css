@@ -1,0 +1,86 @@
+#live{
+    width: 280px;
+    height: 30px;
+    font-family: Urbanist;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #394752;
+    margin-top: 80px;
+    margin-left:10px;
+    margin-bottom: 50px;
+}
+
+#drop{
+    filter: drop-shadow(10px 10px 100px rgba(0, 0, 0, 0.05));
+}
+
+#livecard{
+    width: 18rem;
+    border: none;
+    background: "#FFFFFF"; 
+    margin-left:20px;
+    padding: 0px;
+}
+
+
+#imgdiv{
+ border-top-left-radius: 10px;
+ border-top-right-radius: 10px;
+}
+
+#subjectDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    width: 149px;
+    height: 15px;
+    margin: 6px 0px;
+}
+
+#subject{
+    width: 70px;
+    height: 11px;
+    left: 79px;
+    top: 0px;
+    font-family: Urbanist;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+    color: #445FF4;
+    margin: 16px 16px;
+}
+
+#title{
+width: 252px;
+height: 50px;
+font-family: Urbanist;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 25px;
+color: #394752;
+letter-spacing: 0.02em;
+margin: 6px 0px;
+}
+
+#subtitle{
+    width: 252px;
+    height: 30px;
+    font-family: Urbanist;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #394752;
+    margin: 6px 0px;
+}
