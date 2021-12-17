@@ -1,0 +1,390 @@
+.nmain{
+    height: 672px;
+    width: 1232px;
+    left: 104px;
+    top: 210px;
+    border-radius: 20px;
+    background: #FFFFFF;
+/* DROP SHADOW/HARD */
+
+box-shadow: 10px 10px 100px rgba(92, 190, 129, 0.1);
+border-radius: 20px;
+    /* margin: auto;    */
+}
+.heading{
+    position: absolute;
+    
+height: 78.52761840820312px;
+width: 496px;
+margin-left: 73px;
+top: 189.44784545898438px;
+/* background-color: brown; */
+/* padding:10px */
+/* border-radius: nullpx; */
+/* //styleName: H2/BOLD; */
+font-family: Urbanist;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0.02em;
+text-align: left;
+
+}
+.time{
+    height: 25px;
+width: 150px;
+left: 73px;
+top: 279.9754638671875px;
+/* border-radius: nullpx; */
+position: absolute;
+color: #909090;
+/* background-color: aqua; */
+/* //styleName: H5/REGULAR; */
+font-family: Urbanist;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0.02em;
+text-align: left;
+
+
+}
+.name{
+    height: 30px;
+width: 106px;
+background-color: azure;
+position: absolute;
+left: 156px;
+top: 369px;
+color: #394752;
+/* //styleName: H4; */
+font-family: Urbanist;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0.02em;
+text-align: left;
+
+/* border-radius: nullpx; */
+
+}
+.smallpic{
+    background-color: black;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    left: 73px;
+    top: 369px;
+    border-radius: 10px;
+
+}
+.nitag{
+    height: 15px;
+width: 81px;
+left: 156px;
+color: #909090;
+top: 402px;
+position: absolute;
+/* background-color: black; */
+/* //styleName: SUBTITLE/LIGHT; */
+font-family: Urbanist;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 15px;
+letter-spacing: 0.02em;
+text-align: left;
+
+/* border-radius: nullpx; */
+
+}
+.description{
+    height: 75px;
+width: 591px;
+left: 73px;
+top: 460px;
+/* background-color: black; */
+position: absolute;
+color: #909090;
+/* border-radius: nullpx; */
+
+}
+.nikita{
+    height: 196px;
+width: 350px;
+left: 811px;
+top: 193px;
+border-radius: 0px;
+position: absolute;
+
+}
+.bluetick{
+    position: absolute;
+    height: 20.93000030517578px;
+width: 22px;
+left: 271px;
+top: 374.5400009155273438px;
+border-radius: 0px;
+
+}
+#viewpdf{
+    height: 41px;
+width: 127px;
+left: 364px;
+top: 567px;
+border-radius: 5px;
+padding: 8px, 12px, 8px, 12px;
+position: absolute;
+/* background-color: gray; */
+font-family: Urbanist;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 25px;
+letter-spacing: 0.02em;
+text-align: left;
+color: #394752;
+background-color: #ECECEC;
+
+}
+.link{
+    color: white;
+    text-decoration: none;
+}
+#share{
+    height: 41px;
+width: 101px;
+left: 239px;
+top: 567px;
+border-radius: 5px;
+padding: 8px, 12px, 8px, 12px;
+position: absolute;
+/* //styleName: H5/BOLD; */
+font-family: Urbanist;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 25px;
+letter-spacing: 0.02em;
+text-align: left;
+color: #394752;
+background-color: #ECECEC;
+
+}
+#watchnow{
+    height: 41px;
+width: 142px;
+left: 73px;
+top: 567px;
+border-radius: 5px;
+/* padding: 8px, 12px, 8px, 12px; */
+background-color: #5CBE81;
+position: absolute;
+font-family: Urbanist;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 25px;
+/* identical to box height, or 156% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.02em;
+
+/* PRIMARY/Pearl white */
+
+color: #FFFFFF;
+
+}
+.cbse12{
+    height: 27px;
+    width: 9%;
+    left: 129px;
+    top: 66.5px;
+    border-radius: 4px;
+    position: absolute;
+    background-color: #ECECEC;
+    font-family: Urbanist;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #394752;
+    text-align: center;
+    padding: 6px 18px 6px 18px;
+}
+.cbse1{
+    height: 27px;
+    width: 6%;
+    left: 34.5%;
+    top: 66.5px;
+    border-radius: 4px;
+    position: absolute;
+    background-color: #ECECEC;
+    font-family: Urbanist;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #394752;
+    text-align: center;
+    padding: 6px 18px 6px 18px;
+}
+.reading{
+    height: 27px;
+    width: 13.5%;
+    left: 42.5%;
+    top: 66.5px;
+    border-radius: 4px;
+    position: absolute;
+    background-color: #ECECEC;
+    font-family: Urbanist;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #394752;
+    text-align: center;
+    padding: 6px 18px 6px 18px;
+}
+
+.unseen{
+    height: 27px;
+    width: 10.5%;
+    left: 57.5%;
+    top: 66.5px;
+    border-radius: 4px;
+    position: absolute;
+    background-color: #ECECEC;
+    font-family: Urbanist;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #394752;
+    text-align: center;
+    padding: 6px 18px 6px 18px;
+}
+.freenow{
+    height: 27px;
+    width: 12%;
+    left: 266px;
+    top: 66.5px;
+    border-radius: 4px;
+    padding: 6px 18px 6px 18px;
+    position: absolute;
+    background-color: #ECECEC;
+    font-family: Urbanist;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #394752;
+    text-align: center;
+
+}
+.chemistry{
+    height: 27px;
+    width: 113px;
+    left: 14%;
+    top: 136px;
+    border-radius: 4px;
+    position: absolute;
+    color: blue;
+    font-family: Urbanist;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+
+}
+.english{
+    height: 27px;
+    width: 6.5%;
+    left: 5.8%;
+    top: 136px;
+    border-radius: 4px;
+    padding: 6px 18px 6px 18px;
+    position: absolute;
+    background-color: #ECECEC;
+    font-family: Urbanist;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #909090;
+
+}
+.leftar{
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    background-color: #ECECEC;
+    text-align: center;
+    border-radius: 8px;
+    top: 64px;
+    left: 73px;
+}
+.ar{
+    /* position: center; */
+    height: 6.183334350585943px;
+width: 10.000000000000009px;
+left: 85px;
+top: 75px;
+/* border-radius: 0px; */
+background-color: #fff;
+position: absolute;
+
+}
+
+#span{
+   
+    margin-right: 10px;
+}
+
+#span1{
+   
+    margin-right: 5px;
+}
+
+.topRight{
+    position: absolute;
+    top: 63px;
+    left: 81%;
+}
+
+#loginbtn{
+    width: 130px;
+    height: 37px;
+    padding: 6px 22px;
+    background: #5CBE81;
+    font-family: Urbanist;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
