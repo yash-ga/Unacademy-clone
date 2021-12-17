@@ -1,0 +1,61 @@
+.image {
+  /* width: 50%; */
+  /* border: 5px solid red; */
+
+  margin-bottom: 10%;
+  margin-top: 0%;
+  /* margin-left: ; */
+}
+.h3 {
+  color: #3c4852;
+
+  font-size: 24px;
+  line-height: 150%;
+  margin-left: 40px;
+}
+.heading {
+  color: #3c4852;
+  margin-left: 40px;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 150%;
+
+  margin-top: 10%;
+}
+.main {
+  background-image: url("https://static.uacdn.net/production/_next/static/images/goal/k12/wall.svg");
+  /* border: 5px solid red; */
+  display: flex;
+  margin-left: 150px;
+}
+.h1 {
+  width: 50%;
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+.Button {
+  background-color: #08bd80;
+  position: relative;
+
+  border: none;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: bold;
+  width: fit-content;
+  min-height: 0;
+  height: auto;
+  font-size: 20px;
+  display: inline-block;
+  line-height: 120%;
+  padding: 18px 32px;
+  color: #ffffff;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 6px;
+  margin-left: 40px;
+}

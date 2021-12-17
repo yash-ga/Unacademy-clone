@@ -1,0 +1,224 @@
+.lmain {
+  height: 412px;
+  width: 1232px;
+  left: 204px;
+  margin-left: 75px;
+
+  top: 1398px;
+  border-radius: 15px;
+  /* background-color: aqua; */
+  display: flex;
+}
+.cont2 {
+  /* background-color: brown; */
+  /* background-color: black; */
+  height: 380px;
+  width: 616px;
+  margin-top: 15px;
+  justify-content: center;
+}
+.cont {
+  margin-top: 15px;
+  /* background-color: black; */
+  height: 380px;
+  width: 616px;
+  place-content: center;
+  text-align: center;
+  justify-content: center;
+}
+.redlabel {
+  margin-left: 100px;
+  margin-top: 65px;
+  height: 30px;
+  width: 60px;
+
+  border-radius: 4px;
+  /* padding: 0px, 10px, 0px, 10px; */
+  text-align: center;
+  /* margin-top: 5px; */
+  justify-content: center;
+  /* styleName: H4; */
+  font-family: Urbanist;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  padding-top: 0px;
+
+  background-color: #e95952;
+  border-radius: 4px;
+  color: #fff;
+}
+.live {
+  margin-left: 100px;
+  padding-top: 20px;
+  margin-top: 20px;
+  height: 70px;
+  width: 334px;
+  /* left: 100px;  */
+  /* top: 107px; */
+  border-radius: nullpx;
+  /* //styleName: H1; */
+  font-family: Urbanist;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 70px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #394752;
+  position: absolute;
+  /* background-color: blueviolet; */
+}
+.text {
+  height: 80px;
+  width: 494px;
+  margin-left: 100px;
+  /* margin-top: 40px; */
+  /* left: 100px;
+top: 194px; */
+  border-radius: nullpx;
+  /* background-color: azure; */
+  /* //styleName: H2/REGULAR; */
+  font-family: Urbanist;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #394752;
+  margin-top: 120px;
+
+  top: 40.09%;
+  /* bottom: 33.5%; */
+
+  /* H2/REGULAR */
+
+  font-family: Urbanist;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 40px;
+  /* or 125% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.02em;
+}
+.seeall {
+  /* margin-top: 150px; */
+  height: 40px;
+  width: 105px;
+  margin-left: 90px;
+  padding-top: 10px;
+
+  font-family: Urbanist;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+
+  align-items: center;
+  letter-spacing: 0.02em;
+
+  /* PRIMARY/Academy green */
+
+  color: #5cbe81;
+}
+.fmain {
+  display: flex;
+  height: 112px;
+  width: 438px;
+  left: 689px;
+  top: -48px;
+  border-radius: 8px;
+  padding: 16px;
+  /* background-color: chartreuse; */
+  justify-content: center;
+  place-content: center;
+  /* padding-left: 20px; */
+}
+.imgwala {
+  height: 80px;
+  width: 141px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+}
+.title {
+  /* position: absolute; */
+  width: 213px;
+  height: 15px;
+
+  padding-left: 10px;
+
+  /* SUBTITLE/BOLD */
+
+  font-family: Urbanist;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height, or 125% */
+
+  /* display: flex; */
+  align-items: center;
+  letter-spacing: 0.02em;
+
+  /* PRIMARY/Polish dark */
+
+  color: #394752;
+}
+.time {
+  width: 117px;
+  height: 15px;
+  left: 0px;
+  top: 23px;
+  padding-left: 10px;
+
+  /* SUBTITLE/LIGHT */
+
+  font-family: Urbanist;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height, or 125% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.02em;
+
+  /* EXTENSDED PALETTE/Tiny grey */
+
+  color: #909090;
+}
+.name {
+  width: 76px;
+  height: 15px;
+  left: 0px;
+  bottom: 2px;
+  padding-left: 10px;
+  padding-top: 30px;
+
+  /* SUBTITLE/LIGHT */
+
+  font-family: Urbanist;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height, or 125% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.02em;
+
+  /* PRIMARY/Polish dark */
+
+  color: #394752;
+}
