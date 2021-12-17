@@ -8,43 +8,6 @@
     width: 100%;
 }
 
-.navbar_ldpg{
-    position: absolute;
-    height: 81px;
-    width: 100%;
-    top: 0px;
-    display: flex;
-    justify-content: space-between;
-    /* border: 1px solid red; */
-    margin: 0px;
-}
-
-.navbar_ldpg img{
-    padding: 22px;
-    padding-left: 104px;
-}
-
-.navbar_ldpg div:nth-child(2){
-    padding: 22px;
-    padding-right: 106px;
-}
-
-.navbar_ldpg button{
-    width: 85px;
-    height: 37px;
-    background-color: #5CBE81;
-    border: 0px;
-    color: white;
-    border-radius: 5px;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 25px;
-}
-
-.navbar_ldpg button:hover{
-    background-color: rgb(69, 69, 235);
-}
-
 .ldpg_content{
     position: absolute;
     width: 500px;

@@ -15,7 +15,7 @@
 height: 31px;
 
 /* top: 11080px; */
-top: 5700px;
+top: 5960px;
 
 /* PRIMARY/Pearl white */
 
@@ -36,7 +36,8 @@ height: 263px;
 /* height: 80vh; */
 left: 88px;
 /* margin-top: 200px; */
-top: 5900px;
+top: 6200px;
+/* overflow-x: hidden; */
 
 /* background: #FFFFFF; */
 }

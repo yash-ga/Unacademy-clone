@@ -1,6 +1,11 @@
-.App {
-  text-align: center;
+body{
+  overflow-x: hidden;
 }
+
+/* .App {
+  overflow-x: hidden;
+  font-family: 'Roboto', sans-serif;
+}  */
 
 .App-logo {
   height: 40vmin;

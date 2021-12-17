@@ -1,0 +1,30 @@
+.navbar_login_btn{
+    width: 85px;
+    height: 37px;
+    background-color: #5CBE81;
+    border: 0px;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px
+}
+
+.navbar_login_btn:hover{
+    background-color: rgb(92, 92, 211);
+}
+
+.navbar_login_btn:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.loginpage_close{
+    outline: none;
+    box-shadow: none;   
+    border: 0px;
+    background-color: white;
+    font-size: 25px;
+    padding: 0px;
+    color: #394752;
+}

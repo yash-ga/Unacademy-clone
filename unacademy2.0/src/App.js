@@ -1,20 +1,34 @@
 
 import './App.css';
-import { Session } from './components/WatchSessionPage/Session';
-// import { LiveClass } from './components/LiveClassPage/LiveClass';
-// import Goal from './components/GoalPage/Goal';
-// import { LandingPage } from './components/Landing/LandingPage';
-// import {Cbsc12} from './components/class12/Cbsc12'
-import {LiveClass} from './components/LiveClassPage/LiveClass'
+import Goal from './components/GoalPage/Goal';
+import { LandingPage } from './components/Landing/LandingPage';
+import {Cbsc12} from './components/class12/Cbsc12'
+import { Route, Switch } from 'react-router-dom';
+import { LiveClass } from './components/LiveClassPage/LiveClass';
 
 function App() {
   return (
-    <div>
+    <div className='App'>
      {/* <LandingPage/> */}
       {/* <Goal/> */}
-      <LiveClass/>
       {/* <Cbsc12 /> */}
-      {/* <Session/> */}
+      <Switch>
+        <Route exact path="/">
+            <LandingPage/>
+        </Route>
+        <Route exact path="/goal">
+          <Goal/> 
+        </Route>
+        <Route exact path="/cbse12">
+          <Cbsc12/>
+        </Route>
+        <Route exact path="/live-classes">
+          <LiveClass/>
+        </Route>
+        <Route exact path="/session">
+          
+        </Route>
+      </Switch>
      
     </div>
   );

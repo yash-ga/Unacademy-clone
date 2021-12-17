@@ -1,3 +1,5 @@
+import { Footer } from '../class12/footer/Footer'
+import { Navbar } from '../Landing/Navbar'
 import Styles from './goal.module.css'
 import GoalCard from './GoalCard'
 import GoalCard1 from './GoalCard1'
@@ -43,9 +45,8 @@ const Goal = () => {
                         </div>
                         <div className="row">
                             <GoalCard3/>
-
                         </div>
-
+                        <Footer/>
                     </div>
                 </div>
             </div>

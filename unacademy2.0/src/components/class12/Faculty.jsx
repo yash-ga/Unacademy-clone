@@ -3,7 +3,7 @@ export const Faculty=({image,name,title,time})=>{
     return(
         <div className={Styles.fmain}>
             <div className={Styles.imgwala}>
-        <div className={Styles.image}><img src={image} alt="images of faculty" /></div>
+        <div className={Styles.image}><img src={image} alt="images of faculty" width={120} /></div>
         </div>
         <div className={Styles.baki}>
         <div className={Styles.title}>{title}</div>

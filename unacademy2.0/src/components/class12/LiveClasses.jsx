@@ -1,6 +1,8 @@
 import { FacultyCard } from "./FacultyCard";
 // import Styles from "./style/liveClasses.module";
 import Styles from './style/liveClasses.module.css'
+
+
 export const LiveClasses = () => {
   return (
     <div className={Styles.lmain}>

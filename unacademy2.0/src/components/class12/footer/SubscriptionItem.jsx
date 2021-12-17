@@ -7,18 +7,12 @@ export const SubscriptionItem = ({ dec, valid, price, tax, bg }) => {
 
     return (
       <div className={Style.item}>
-        {/* 'hELLO sUBSRIPTIOM' */}
         <p>{dec}</p>
         <p>{valid}</p>
         <p>{price}</p>
         <p>{tax}</p>
-            <p className={bg === 'nor' ? Style.nor : Style.lastBtn}>Get subscription</p>
-            {/* <p className={`Style.${bg}`}>Get subscription</p> */}
-            {/* <p className={Style.`${bg}`}>Get subscription</p> */}
-            
+            <p className={bg === 'nor' ? Style.nor : Style.lastBtn}>Get subscription</p>            
         </div>   
-        // Style."nor"
-        // Style.nor
     );
 
 }

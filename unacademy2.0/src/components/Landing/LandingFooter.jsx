@@ -1,16 +1,17 @@
 import React from "react";
 // import logo5 from '../../../img/Logo.png
-
-import logo         from "../../img/Logo.png";
-import appStore     from "../../img/AppStore.png";
-import playStore    from "../../img/PlayStore.png";
-import facebook     from "../../img/face.png";
-import twiter       from "../../img/twi.png";
-import instagram    from "../../img/insta.png";
-import linkedin     from "../../img/leng.png";
-import youtube      from "../../img/youtube.png";
+import logo from "../../img/Logo.png";
+import appStore from "../../img/AppStore.png";
+import playStore from "../../img/PlayStore.png";
+import facebook from "../../img/face.png";
+import twiter from "../../img/twi.png";
+import instagram from "../../img/insta.png";
+import linkedin from "../../img/leng.png";
+import youtube from "../../img/youtube.png";
 // import Style        from "./Footer.module.css";
-import Style        from './style/landingFooter.module.css'
+import Style from './style/landingFooter.module.css'
+
+
 export const Footer = () => {
   return (
     <>

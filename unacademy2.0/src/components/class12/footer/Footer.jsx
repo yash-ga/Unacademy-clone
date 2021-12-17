@@ -13,7 +13,7 @@ export const Footer = () => {
     return (
         <>
             <button className={Style.btn} onClick={()=>window.scrollTo(0, 0)}
->Back To Top</button>
+>Back To Top</button> 
       <div className={Style.main}>
         <div className={Style.first}>
           <img src={logo} alt="LOGO" />

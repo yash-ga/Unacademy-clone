@@ -14,7 +14,7 @@
 
 }
 
-.startlearning img{
+.startlearning>img{
     position: absolute;
     width: 240px;
     right: 0;

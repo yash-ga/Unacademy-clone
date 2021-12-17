@@ -1,6 +1,7 @@
 import Styles from './goal.module.css'
 import Diary from './image/Diary.svg'
 import Book from './image/Book.svg'
+import { useHistory } from 'react-router-dom'
 
 const arr1 = [
     {
@@ -42,16 +43,29 @@ const arr1 = [
 
 ]
 const GoalCard = () => {
+    const history = useHistory();
+
+    const handleShowClass12Pg = (x)=>{
+        if(x.class === "CBSE Class 12"){
+            history.push("/cbse12");
+            window.scrollTo(0,0);
+        }
+    }
+
     return (
         <>
         {
             arr1.map(x => (
-                <div className="col-4" id={Styles.rightBox} key={Math.random(1)}>
+            <button className={Styles.goal_btn} id={Styles.rightBox} onClick={()=>handleShowClass12Pg(x)} >
+                <div className="col-4"  key={Math.random(1)}>
                     <div>
                         <img src={x.img} alt="..." />
                     </div>
-                    <div id={Styles.class6}>{x.class}</div>
+                    <div id={Styles.class6}>
+                        {x.class}
+                    </div>
                 </div>
+             </button> 
             ))
         }
             

@@ -1,9 +1,9 @@
 
 .cardDemo_container{
-    width: 600px;
+    width: 570px;
     position: relative;
     height: 402px;
-    padding-left: 48px;
+    padding-left: 25px;
     line-height: 40px;
     letter-spacing: 0.02em;
     color: #394752;
@@ -11,7 +11,7 @@
     border-radius: 5px;
     background-color: white;
     filter: drop-shadow(10px 10px 100px rgba(92, 190, 129, 0.1));
-    margin-right: 100px;
+    margin-right: 20px;
     align-items: center;
 }
 

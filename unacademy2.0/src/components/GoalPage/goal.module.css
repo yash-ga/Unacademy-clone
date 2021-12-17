@@ -85,6 +85,7 @@
 }
 
 #inputBox{
+    outline: none;
     border: none;
     font-family: Urbanist;
     font-style: normal;
@@ -203,6 +204,7 @@
     background: #FFFFFF;
     box-shadow: 10px 10px 100px rgba(0, 0, 0, 0.05);
     border-radius: 8px;
+    border: 0px;
 }
 
 #rightBox:hover{
