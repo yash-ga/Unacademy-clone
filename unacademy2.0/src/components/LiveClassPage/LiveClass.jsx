@@ -19,8 +19,8 @@ export const LiveClass = () => {
     return (
         <div>
            
-            <div className="container">
-                <div className="row">
+            <div className="container" style={{overflow:"hidden"}}>
+                <div className="row" style={{marginTop:"70px",marginLeft:"80px"}}>
                     <div className="col-2">
                         <div className={Styles.fixedTop}>
                             <div className='row' id={Styles.home}>
