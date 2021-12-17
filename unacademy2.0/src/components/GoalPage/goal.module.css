@@ -1,12 +1,10 @@
 #box1{
     display: flex;
     flex-direction: row;
-    /* justify-content: center; */
     align-items: center;
     padding: 11px 0px 11px 13px;
     width: 252px;
     height: 47px;
-   
     border-radius: 6px;
     font-family: Urbanist;
     font-style: normal;
@@ -17,6 +15,139 @@
     margin: 16px 0px;
 }
 
+
+#card1{
+    position: relative;
+    border:none
+}
+
+.topLeft {
+    position: absolute;
+    top: 29px;
+    left: 8%;
+    @media all and (max-width:900px){   
+        width:8%;
+        height:8%
+     } 
+}
+
+.topRight{
+    position: absolute;
+    top: 24px;
+    left: 86%;
+}
+
+
+
+#loginbtn{
+    width: 86px;
+    height: 37px;
+    padding: 6px 22px;
+    background: #5CBE81;
+    font-family: Urbanist;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.chooseGoal{
+    position: absolute;
+    width: 467px;
+    height: 70px;
+    left: 8%;
+    top: 154px;
+    font-family: Urbanist;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 70px;
+    letter-spacing: 0.02em;
+    color: #394752;
+}
+
+#inputSearch{
+    position: absolute;
+    width: 23%;
+    height: 50px ;
+    top: 324px;
+    left: 6%;
+    padding: 10px 16px 10px 16px;
+    
+}
+
+#span{
+    background:none;
+    border: none;
+}
+
+#inputBox{
+    border: none;
+    font-family: Urbanist;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #909090;
+}
+
+.slideNav{
+    position: absolute;
+    width: 475px;
+    height: 78px;
+    left: 7.22%;
+    right: 57.57%;
+    bottom: 0%;
+}
+.bottom13{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 150px;
+    height: 78px;
+    font-family: Urbanist;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #394752;
+    align-items: center;
+    padding: 24px 0px 0px;
+    position: absolute;
+    left: 0%;
+    right: 62.92%;
+    top: 0%;
+    bottom: 0%;
+    border-bottom:4px solid #394752;
+}
+.comp{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 36px;
+    width: 255px;
+    height: 102px;
+    font-family: Urbanist;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #909090;
+    position: absolute;
+    left: 49.7%;
+}
+
+
 #box1:hover{
     background: #ECECEC;
     box-shadow: 10px 10px 100px rgba(0, 0, 0, 0.05);
@@ -25,7 +156,6 @@
 #box2{
     display: flex;
     flex-direction: row;
-    /* justify-content: center; */
     align-items: center;
     padding: 11px 0px 11px 13px;
     width: 252px;
@@ -82,9 +212,6 @@
 
 #class6{
     width: 236px;
-    /* left: calc(50% - 236px/2);
-    top: 68.21%;
-    bottom: 15.23%; */
     font-family: Urbanist;
     font-style: normal;
     font-weight: bold;
