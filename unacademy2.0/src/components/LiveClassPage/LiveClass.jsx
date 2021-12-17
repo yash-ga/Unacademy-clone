@@ -18,30 +18,33 @@ import { TalktoExpert } from './TalktoExpert'
 export const LiveClass = () => {
     return (
         <div>
+           
             <div className="container">
                 <div className="row">
                     <div className="col-2">
-                        <div className='row' id={Styles.home}>
-                            <div id={Styles.homeText} ><img src={Home} alt="" id={Styles.homeImg}/>Home</div>
-                        </div>
-                        <div className="row" id={Styles.selfStudy}>Self Study</div>
-                        <div className='row' id={Styles.home}>
-                            <div id={Styles.homeText} ><img src={Compass} alt="" id={Styles.homeImg}/>Browse</div>
-                        </div>
-                        <div className='row' id={Styles.home}>
-                            <div id={Styles.homeText} ><img src={light} alt="" id={Styles.homeImg}/>Practice</div>
-                        </div><div className='row' id={Styles.home}>
-                            <div id={Styles.homeText} ><img src={Aplus} alt="" id={Styles.homeImg}/>Test</div>
-                        </div><div className='row' id={Styles.home}>
-                            <div id={Styles.homeText} ><img src={bookopen} alt="" id={Styles.homeImg}/>Syllabus</div>
-                        </div><div className='row' id={Styles.home}>
-                            <div id={Styles.homeText} ><img src={doubt} alt="" id={Styles.homeImg}/>Doubts & solution</div>
-                        </div>
-                        <div className='row' id={Styles.home}>
-                            <div id={Styles.homeText} ><img src={youtube} alt="" id={Styles.homeImg}/>Free Live Class</div>
-                        </div>
-                        <div className='row' id={Styles.home}>
-                            <div id={Styles.homeText} ><img src={Vector} alt="" id={Styles.homeImg}/>Other Courses</div>
+                        <div className={Styles.fixedTop}>
+                            <div className='row' id={Styles.home}>
+                                <div id={Styles.homeText} ><img src={Home} alt="" id={Styles.homeImg} />Home</div>
+                            </div>
+                            <div className="row" id={Styles.selfStudy}>Self Study</div>
+                            <div className='row' id={Styles.home}>
+                                <div id={Styles.homeText} ><img src={Compass} alt="" id={Styles.homeImg} />Browse</div>
+                            </div>
+                            <div className='row' id={Styles.home}>
+                                <div id={Styles.homeText} ><img src={light} alt="" id={Styles.homeImg} />Practice</div>
+                            </div><div className='row' id={Styles.home}>
+                                <div id={Styles.homeText} ><img src={Aplus} alt="" id={Styles.homeImg} />Test</div>
+                            </div><div className='row' id={Styles.home}>
+                                <div id={Styles.homeText} ><img src={bookopen} alt="" id={Styles.homeImg} />Syllabus</div>
+                            </div><div className='row' id={Styles.home}>
+                                <div id={Styles.homeText} ><img src={doubt} alt="" id={Styles.homeImg} />Doubts & solution</div>
+                            </div>
+                            <div className='row' id={Styles.home}>
+                                <div id={Styles.homeText} ><img src={youtube} alt="" id={Styles.homeImg} />Free Live Class</div>
+                            </div>
+                            <div className='row' id={Styles.home}>
+                                <div id={Styles.homeText} ><img src={Vector} alt="" id={Styles.homeImg} />Other Courses</div>
+                            </div>
                         </div>
                     </div>
                     <div className="col-10">
@@ -55,67 +58,42 @@ export const LiveClass = () => {
                             <div className="col-12" id={Styles.live}>Live Now</div>
                         </div>
                         <div className="row" id={Styles.drop}>
-                            <LiveLecture/>
+                            <LiveLecture />
                         </div>
                         <div className="row">
                             <div className="col-12" id={Styles.live}>Live now Test Series</div>
                         </div>
                         <div className='row'>
-                            <TestSeries/>
-                            <TestSeries/>
-                            <TestSeries/>
+                            <TestSeries />
+                            <TestSeries />
+                            <TestSeries />
                         </div>
                         <div className="row">
                             <div className="col-12" id={Styles.live}>Trending</div>
                         </div>
                         <div className="row" id={Styles.drop}>
-                        <Trending/>
+                            <Trending />
                         </div>
                         <div className="row">
                             <div className="col-12" id={Styles.live}>Upcoming</div>
                         </div>
                         <div className="row" id={Styles.drop}>
-                        <Upcoming/>
+                            <Upcoming />
                         </div>
                         <div className="row">
                             <div className="col-12" id={Styles.live}>Featured Educator</div>
                         </div>
                         <div className='row'>
-                            <Featured/>
+                            <Featured />
                         </div>
                         <div className='row'>
-                            <TalktoExpert/>
+                            <TalktoExpert />
                         </div>
-                        {/* <div className="row">
-                            <GoalCard1/>
-                        </div> */}
-                        {/* <div className="row">
-                            <div className="col-12" id={Styles.mhStateBoard}>JEE and NEET Preparation</div>
-                        </div> */}
-                        {/* <div className="row">
-                            <GoalCard2/>
-                        </div> */}
-                        {/* <div className="row">
-                            <div className="col-12" id={Styles.foundation}>IITJEE/NEET Foundation & NTSE</div>
-                        </div> */}
-                        {/* <div className="row">
-                            <GoalCard3/>
-
-                        </div> */}
-
                     </div>
-                    
+
                 </div>
             </div>
         </div>
     )
 }
 
-//
-// <div className="row" id={Styles.home}>
-//                             <div><img src={Home} alt="..." /></div>
-//                             <div id={Styles.homeText}>Home</div>
-//                             {/* <div className="col-3"><img src={Home} alt="" /></div>
-//                             <div className="col-3" style={{marginLeft:"-30px"}}>Home</div> */}
-//                         </div>
-//

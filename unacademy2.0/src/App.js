@@ -5,16 +5,16 @@ import { Session } from './components/WatchSessionPage/Session';
 // import Goal from './components/GoalPage/Goal';
 // import { LandingPage } from './components/Landing/LandingPage';
 // import {Cbsc12} from './components/class12/Cbsc12'
-// import {LiveClass} from './components/LiveClassPage/LiveClass'
+import {LiveClass} from './components/LiveClassPage/LiveClass'
 
 function App() {
   return (
     <div>
      {/* <LandingPage/> */}
       {/* <Goal/> */}
-      {/* <LiveClass/> */}
+      <LiveClass/>
       {/* <Cbsc12 /> */}
-      <Session/>
+      {/* <Session/> */}
      
     </div>
   );

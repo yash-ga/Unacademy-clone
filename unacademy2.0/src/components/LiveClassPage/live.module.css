@@ -409,3 +409,9 @@ margin: 19px 0px;
     background-color: #5CBE81;;
     
 }
+
+.fixedTop{
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+}
