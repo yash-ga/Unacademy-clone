@@ -37,8 +37,8 @@ export const Featured = () => {
     return (
         <>
             {
-                arr1.map((x) => (
-                    <div className="card mb-3 ms-3 me-3 col-5" id={Styles.featuredCard} key={Math.random(1)}>
+                arr1.map((x,id) => (
+                    <div className="card mb-3 ms-3 me-3 col-5" id={Styles.featuredCard} key={id}>
                         <div className="row g-0">
                             <div className="col-md-4">
                                 <img src={x.img} className="img-fluid rounded-start" id={Styles.featuredImg} alt="..." />

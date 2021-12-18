@@ -5,11 +5,8 @@
     top: 210px;
     border-radius: 20px;
     background: #FFFFFF;
-/* DROP SHADOW/HARD */
-
-box-shadow: 10px 10px 100px rgba(92, 190, 129, 0.1);
-border-radius: 20px;
-    /* margin: auto;    */
+    box-shadow: 10px 10px 100px rgba(92, 190, 129, 0.1);
+    border-radius: 20px;
 }
 .heading{
     position: absolute;

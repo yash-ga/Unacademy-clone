@@ -5,6 +5,8 @@ import { LandingPage } from './components/Landing/LandingPage';
 import {Cbsc12} from './components/class12/Cbsc12'
 import { Route, Switch } from 'react-router-dom';
 import { LiveClass } from './components/LiveClassPage/LiveClass';
+import { Session } from './components/WatchSessionPage/Session';
+import {LoadingScreen} from './components/loadingscreen/LoadingScreen'
 
 function App() {
   return (
@@ -23,7 +25,10 @@ function App() {
           <LiveClass/>
         </Route>
         <Route exact path="/session">
-          
+          <Session/>
+        </Route>
+        <Route exact path="/loading" >
+          <LoadingScreen/>
         </Route>
       </Switch>
      

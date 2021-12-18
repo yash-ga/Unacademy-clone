@@ -6,9 +6,14 @@ export const StartLearning = ({text0,text1,course1,course2,course3,img,disable1}
     const [disb1,setDisb1] = useState(disable1);
     const history = useHistory();
 
-    const handleGoalPage = ()=>{
-        history.push("/goal");
-        window.scrollTo(0,0);
+    const handleGoalPage = (text1)=>{
+        console.log(text1)
+        if(text1 == "Class 6 to 12"){
+            history.push("/goal");
+            window.scrollTo(0,0);
+        }
+        else
+        return;
     }
 
     return (
@@ -26,7 +31,7 @@ export const StartLearning = ({text0,text1,course1,course2,course3,img,disable1}
             </div> : null
             }
             <div className={styles.startlearning_btn}>
-            <button onClick={handleGoalPage}>Start learning</button>
+            <button onClick={()=>handleGoalPage(text1)}>Start learning</button>
             </div>
         </div>
     )

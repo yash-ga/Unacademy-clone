@@ -14,7 +14,7 @@ export const Landing1 = ()=>{
             </div>
             <div className={styles.prepare_container}>
                 <div><StartLearning text0="Prepare for" text1="Competitive exams" disable1="1" img="./Images/competitive.png" course1="UPSC CSE - GS" course2="IIT JEEE" course3="NEET UG" /></div>
-                <div><StartLearning text1="Class 6 to 12" img="./Images/class6_12.png" disable1="1" course1="CBSE" course2="Maharashtra Boards" /> </div>
+                <div><StartLearning text0="Prepare for" text1="Class 6 to 12" img="./Images/class6_12.png" disable1="1" course1="CBSE" course2="Maharashtra Boards" /> </div>
                 <div className={styles.call_icon}>
                     <img src="/Icons/call.svg" alt="img" />
                 </div>

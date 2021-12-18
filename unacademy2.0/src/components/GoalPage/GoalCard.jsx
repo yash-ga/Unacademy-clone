@@ -57,7 +57,7 @@ const GoalCard = () => {
         {
             arr1.map(x => (
             <button className={Styles.goal_btn} id={Styles.rightBox} onClick={()=>handleShowClass12Pg(x)} >
-                <div className="col-4"  key={Math.random(1)}>
+                <div className="col-4 "  key={Math.random(1)}>
                     <div>
                         <img src={x.img} alt="..." />
                     </div>

@@ -1,13 +1,3 @@
-import Styles from './live.module.css'
-import Home from './images/home-circle.svg'
-import Compass from './images/compass.svg'
-import Aplus from './images/Aplus.svg'
-import light from './images/light.svg'
-import youtube from './images/youtube.svg'
-import bookopen from './images/bookopen.svg'
-import Vector from './images/Vector.svg'
-import doubt from './images/doubt.svg'
-
 export const SideBar = () => {
     return (
         <div className="col-2">

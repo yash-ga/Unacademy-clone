@@ -4,9 +4,15 @@ import styles from './style/cardDemo.module.css'
 export const CardDemo = ({img0,img1,img2,img3,text0,text1,text2,text3,text4}) => {
     const history = useHistory();
 
-    const handleWatchClasses = ()=>{
-        history.push("/live-classes")
-        window.scrollTo(0,0)
+    const handleWatchClasses = (text4)=>{
+        if(text4 === "Watch now"){
+            if(localStorage.getItem("token")){
+                history.push("/live-classes")
+                window.scrollTo(0,0)
+            }
+            else
+            alert("Please Login")
+        }
     }
 
     return (
@@ -28,7 +34,7 @@ export const CardDemo = ({img0,img1,img2,img3,text0,text1,text2,text3,text4}) =>
             </div>
         </div>
         <div className={styles.cardDemo_btn}>
-        <button onClick={handleWatchClasses}> {text4} </button>
+        <button onClick={()=>handleWatchClasses(text4)}> {text4} </button>
         </div> 
     </div>
 

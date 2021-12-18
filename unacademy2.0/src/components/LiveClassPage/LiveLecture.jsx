@@ -3,6 +3,7 @@ import pic3 from './images/pic3.png'
 import GREYLABEL from './images/GREY LABEL.svg'
 import pic2 from './images/pic2.png'
 import pic1 from './images/pic1.png'
+import { useHistory } from 'react-router-dom'
 
 const arr1 = [
     {
@@ -28,13 +29,21 @@ const arr1 = [
 ]
 
 export const LiveLecture = () => {
+    const history = useHistory();
+    
+    const handleLiveClasses = ()=>{
+        history.push("/session");
+        window.scrollTo(0,0);
+    }
+
     return (
         <>
             {
-                arr1.map((x) => (
-                    <div className="card col-4" id={Styles.livecard} key={Math.random(1)}>
+                arr1.map((x,id) => (
+                    <div className="card col-4" id={Styles.livecard} key={id}>
+                        <button onClick={handleLiveClasses} style={{display:"inline-block",backgroundColor:"white",border:"0px"}} >
                         <img src={x.img} className="card-img-top" alt="..." id={Styles.imgdiv} />
-                        <div className="card-body">
+                        <div className="card-body" style={{textAlign:"start"}}>
                             <div id={Styles.subjectDiv}>
                                 <div>
                                     <img src={GREYLABEL} alt="" />
@@ -47,6 +56,7 @@ export const LiveLecture = () => {
                             </div>
                             <div id={Styles.subtitle}>{x.name}</div>
                         </div>
+                    </button>
                     </div>
                 ))
             }
