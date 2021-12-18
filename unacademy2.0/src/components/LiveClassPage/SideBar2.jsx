@@ -8,7 +8,7 @@ import bookopen from './images/bookopen.svg'
 import Vector from './images/Vector.svg'
 import doubt from './images/doubt.svg'
 
-export const SideBar = () => {
+export const SideBar2 = () => {
     return (
         <div className="col-2">
             <div className={Styles.fixedTop}>
@@ -29,10 +29,10 @@ export const SideBar = () => {
                     <div id={Styles.homeText} ><img src={doubt} alt="" id={Styles.homeImg} />Doubts & solution</div>
                 </div>
                 <div className='row' id={Styles.home}>
-                    <div id={Styles.homeText} ><img src={youtube} alt="" id={Styles.homeImg} />Free Live Class</div>
+                    <div id={Styles.homeText} ><img src={Vector} alt="" id={Styles.homeImg} />Free Live Class</div>
                 </div>
                 <div className='row' id={Styles.home}>
-                    <div id={Styles.homeText} ><img src={Vector} alt="" id={Styles.homeImg} />Other Courses</div>
+                    <div id={Styles.homeText} ><img src={youtube} alt="" id={Styles.homeImg} />Other Courses</div>
                 </div>
             </div>
         </div>

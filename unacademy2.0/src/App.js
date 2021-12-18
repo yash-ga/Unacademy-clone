@@ -9,9 +9,6 @@ import { LiveClass } from './components/LiveClassPage/LiveClass';
 function App() {
   return (
     <div className='App'>
-     {/* <LandingPage/> */}
-      {/* <Goal/> */}
-      {/* <Cbsc12 /> */}
       <Switch>
         <Route exact path="/">
             <LandingPage/>
