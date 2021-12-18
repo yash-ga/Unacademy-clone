@@ -183,7 +183,6 @@ border-radius: 5px;
 /* padding: 8px, 12px, 8px, 12px; */
 background-color: #5CBE81;
 position: absolute;
-font-family: Urbanist;
 font-style: normal;
 font-weight: bold;
 font-size: 16px;
@@ -193,12 +192,15 @@ line-height: 25px;
 display: flex;
 align-items: center;
 letter-spacing: 0.02em;
-
-/* PRIMARY/Pearl white */
-
 color: #FFFFFF;
-
+border: 0px;
+padding-left: 10px;
 }
+
+#watchnow:hover{
+    background-color: rgb(76, 76, 214);
+}
+
 .cbse12{
     height: 27px;
     width: 9%;

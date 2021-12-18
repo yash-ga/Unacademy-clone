@@ -28,7 +28,6 @@ export const Cbsc12 = () => {
         <TrackCarousel />
         <Subscription />
         <Footer />
-        
       </div>
     );
 }
