@@ -7,11 +7,13 @@ import { Route, Switch } from 'react-router-dom';
 import { LiveClass } from './components/LiveClassPage/LiveClass';
 import { Session } from './components/WatchSessionPage/Session';
 import {LoadingScreen} from './components/loadingscreen/LoadingScreen'
+import { SubscriptionPage } from './components/subscription/SubscriptionPage';
+import { SubIconicPage } from './components/subscription/SubIconicPage';
 
 function App() {
   return (
     <div className='App'>
-      <Switch>
+      {/* <Switch>
         <Route exact path="/">
             <LandingPage/>
         </Route>
@@ -30,7 +32,9 @@ function App() {
         <Route exact path="/loading" >
           <LoadingScreen/>
         </Route>
-      </Switch>
+      </Switch> */}
+      <SubscriptionPage/>
+      {/* <SubIconicPage/> */}
      
     </div>
   );

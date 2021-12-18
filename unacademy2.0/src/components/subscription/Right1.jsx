@@ -1,22 +1,18 @@
 import Styles from "./subscription.module.css"
-const styles = {
-    btn: {
+const styles={
+    btn:{
         background: "#394752",
-        borderRadius: "20px",
-        width: "91px",
-        fontFamily: "Urbanist",
-        fontWeight: "bold"
+borderRadius: "20px",
+width:"91px",
+fontFamily:"Urbanist",
+fontWeight: "bold"
     }
 }
-export const Right = () => {
+export const Right1 = () => {
     return (
         <div>
             <div className={Styles.rheading}>Class 12 Subscription</div>
-            {/* <div>
-            <span>Iconic</span>
-            <button className={Styles.Buttons}>Plus</button> 
-            </div> */}
-            <div className={Styles.btnDiv} style={{ height: "38px", width: "161px" }}><span style={{ marginLeft: "10px" }}>Plus</span> <span style={{ marginLeft: "15px" }}><button type="button" style={styles.btn} className="btn btn-dark">Iconic</button></span></div>
+            <div className={Styles.btnDiv} style={{height:"38px", width:"161px"}} ><span style={{marginLeft:"10px", boxSizing:"unset"}}>Iconic</span> <span style={{marginLeft:"0px"}}><button type="button" style={styles.btn} className="btn btn-dark">Plus</button></span></div>
             <div className={Styles.Voucher}><img className={Styles.voucherStyle} src="./imagesByYash/EMIVOUCHER.png" alt="..." /></div>
             <div >
                 <div className={Styles.i1} > <img className={Styles.imgStyle} src="./imagesByYash/s3.png" alt="..." /></div>

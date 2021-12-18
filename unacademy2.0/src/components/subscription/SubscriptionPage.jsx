@@ -1,14 +1,16 @@
 import { Right } from "./Right"
 import Styles from "./subscription.module.css"
-export const Subscription=()=>{
+import logo from './images/logo.svg'
+export const SubscriptionPage=()=>{
     return(
         <div>
+            <div><img src={logo} alt="..." className={Styles.logo} /></div>
             <div className={Styles.smain}>
                 <div className={Styles.left}>
                 <div ><img className={Styles.plus} src="./imagesByYash/pg2.png" alt="..." /></div>
-                <div className={Styles.heading}>Structured Courses</div>
-                <div className={Styles.description}>All our courses are structured in line with your exam
-syllabus to help you best prepare for it</div>
+                <div className={Styles.heading}>Personal Mentor</div>
+                <div className={Styles.description}>Get one-on-one guidance from top experts as your
+personal mentor</div>
                 </div>
                 <div className={Styles.right}><Right/></div>
             </div>
