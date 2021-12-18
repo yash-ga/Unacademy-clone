@@ -1,0 +1,121 @@
+.vmain {
+  width: 100%;
+  height: 800px;
+
+  border: 5px solid red;
+  display: flex;
+  margin-left: 70px;
+}
+
+.cmain {
+  height: 248px;
+  width: 380px;
+  left: 0px;
+  top: 0px;
+  border-radius: 6px;
+  padding: 16px;
+  border: 5px red;
+  background-color: #ececec;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.name {
+  height: 35px;
+  width: 340px;
+  left: 16px;
+  top: 16px;
+  /* background-color: rosybrown; */
+  font-family: Urbanist;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 15px;
+  /* identical to box height, or 125% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.02em;
+
+  /* PRIMARY/Polish dark */
+
+  color: #394752;
+  /* border-radius: nullpx; */
+}
+.description {
+  height: 100px;
+  width: 340px;
+  left: 16px;
+  font-family: Urbanist;
+
+  /* background-color: black; */
+  margin-top: 20px;
+}
+.image {
+  height: 64px;
+  width: 64px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+  margin-top: 10px;
+  /* background-color: gray; */
+}
+
+.doubt{
+width: 1080px;
+height: 45px;
+/* background-color: gray; */
+margin-top: 20px;
+margin-left: 20px;
+display: flex;
+gap: 20px;
+}
+.i{
+    /* background-color: #000; */
+    width: 40px;
+    gap: 20px;
+    margin-right: 60px;
+
+}
+.i:hover{
+  width: 50px;
+}
+.addimage{
+    height: 42px;
+    width:42px;
+    margin-top:0.5px;
+    /* background-color: #000; */
+    place-items: center;
+}
+.addimage:hover{
+  width: 60px;
+}
+.d{
+    /* text-align: right; */
+    /* place-items: right; */
+    margin-left: 300px;
+    gap: 20px;
+
+}
+/* .a{
+  margin-right: 10px;
+} */
+.input{
+  background-color: #394752;
+  width: 250px;
+}
+.inputin{
+  margin-left: 20px;
+  margin-top: 10px;
+  /* margin: auto; */
+  /* place-items: center; */
+  /* justify-content: center; */
+
+}
+.inputin:hover{
+  padding: 0px 10px;
+}
+.r{
+  align-items: right;
+  margin-left: 100px;
+  width: 40px;
+}
