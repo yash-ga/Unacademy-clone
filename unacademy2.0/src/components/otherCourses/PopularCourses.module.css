@@ -1,0 +1,303 @@
+ .main > :nth-child(1){
+position: absolute;
+width: 155px;
+height: 30px;
+/* margin-top: -350px; */
+margin-top: -80px;
+margin-left: 380px;
+
+
+font-family: Urbanist;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 30px;
+
+display: flex;
+align-items: center;
+letter-spacing: 0.02em;
+
+
+color: #394752;
+
+
+}
+ 
+
+
+ .main > :nth-child(2){
+     cursor: pointer;
+    color: #5CBE81 ;
+    position: absolute;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    /* margin-top: -200px; */
+    margin-top: -80px;
+    margin-left: 900px;
+
+} 
+
+ .popular{
+    /* margin-top: 60px; */
+    margin-top: 100px;
+    margin-left: 300px;
+} 
+.slider1{
+/* position: absolute; */
+width: 254px;
+/* width: 200px; */
+height: 372px;
+cursor: pointer;
+
+
+background: #FFFFFF;
+box-shadow:  0 1px 6px rgb(31 31 31 / 12%), 0 1px 4px rgb(31 31 31 / 12%);
+border-radius: 10px;
+}
+
+.pic{
+    width: 284px;
+    height: 160px;
+} 
+ .pic >img{
+     width: 255px;
+     height: 160px;
+     border-radius: 8px 8px 0px 0px;
+ }
+
+ .pic > :nth-child(2){
+     display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px 10px;
+
+position: absolute;
+/* width: 85px; */
+/* height: 15px; */
+/* left: 16px; */
+/* top: 54px; */
+margin-top: -30px;
+margin-left: 22px;
+
+/* PRIMARY/Polish dark */
+
+background: #394752;
+border-radius: 4px;
+
+
+
+font-family: Urbanist;
+font-style: normal;
+font-weight: 900;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height, or 125% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.02em;
+
+/* PRIMARY/Pearl white */
+
+color: #FFFFFF;
+ }
+
+
+ .lang > :nth-child(1){
+     position: static;
+width: 50px;
+height: 15px;
+left: 10px;
+top: 0px;
+
+/* SUBTITLE/BOLD */
+
+font-family: Urbanist;
+font-style: normal;
+font-weight: 900;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height, or 125% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.02em;
+margin-top: 10px;
+margin-left: 10px;
+background: #e6e0e0;
+padding: 5px;
+border-radius: 3px;
+
+/* EXTENSDED PALETTE/Tiny grey */
+
+color: #909090;
+
+ }
+
+
+ .lang >:nth-child(2){
+     position: absolute;
+width: 70px;
+height: 15px;
+margin-top: -30px;
+margin-left: 80px;
+/* left: 95px; */
+/* top: 176px; */
+
+/* SUBTITLE/BOLD */
+
+font-family: Urbanist;
+font-style: normal;
+font-weight: 900;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height, or 125% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.02em;
+
+/* SECONDARY/Academy blue */
+
+color: #445FF4;
+ }
+
+ /* ****************** */
+
+ .title :nth-child(1){
+     position: absolute;
+width: 252px;
+height: 50px;
+/* left: 16px; */
+top: 202px;
+margin-left: 10px;
+
+
+/* H5/BOLD */
+
+font-family: Urbanist;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 25px;
+/* or 156% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.02em;
+
+/* PRIMARY/Polish dark */
+
+color: #394752;
+
+ }
+
+ .title >:nth-child(2){
+     position: absolute;
+width: 174px;
+height: 15px;
+/* left: 16px; */
+top: 255px;
+margin-left: 10px;
+
+/* SUBTITLE/LIGHT */
+
+font-family: Urbanist;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height, or 125% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.02em;
+
+/* EXTENSDED PALETTE/Tiny grey */
+
+color: #909090;
+ }
+
+ /* ***************************************************  Rating*/
+
+ .rating >:nth-child(1){
+     position: absolute;
+     margin-top: 85px;
+     margin-left: 10px;
+    /* left: 8.33%; */
+    /* right: 8.33%; */
+    /* top: 8.33%; */
+    /* bottom: 12.5%; */
+
+/* background: #FFBE00; */
+border-radius: 0.5px;
+ }
+
+ .rating > :nth-child(2){
+
+    position: absolute;
+width: 18px;
+height: 15px;
+margin-left: 40px;
+margin-top: 90px;
+/* left: 48px; */
+/* top: 287px; */
+
+/* SUBTITLE/BOLD */
+
+font-family: Urbanist;
+font-style: normal;
+font-weight: 900;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height, or 125% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.02em;
+
+/* ACCENT PALETTE/Golden Rod */
+
+color: #F1B42E;
+ }
+
+ /* ********************************************************Profile Section */
+
+
+ .profile > :nth-child(1){
+     border-radius: 50%;
+     margin-top: 120px;
+     margin-left: 10px;
+
+ }
+
+ .profile > :nth-child(2){
+     position: absolute;
+width: 100px;
+height: 15px;
+/* left: 46px; */
+top: 325px;
+margin-left: 40px;
+
+/* SUBTITLE/LIGHT */
+
+font-family: Urbanist;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height, or 125% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.02em;
+
+/* EXTENSDED PALETTE/Tiny grey */
+
+color: #909090;
+ }

@@ -1,0 +1,185 @@
+.main {
+    position: relative;
+    margin-top: 50px;
+}
+.main >:nth-child(1){
+    margin-left: 10px   ;
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* PRIMARY/Polish dark */
+
+/* background: #394752; */
+}
+
+
+.main >:nth-child(2){
+   
+position: absolute;
+width: 239px;
+height: 25px;
+left: 50px;
+/* top: 11px; */
+
+/* H5/BOLD */
+
+font-family: Urbanist;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 25px;
+/* identical to box height, or 156% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.02em;
+
+/* PRIMARY/Polish dark */
+
+color: #394752;
+}
+
+
+/* ************************COntainer */
+
+.container{
+    margin-left: 20px;
+    width: 180px;
+    /* border: 5px solid black; */
+    position: fixed;
+    z-index: 1;
+
+    cursor: pointer;
+}
+.self{
+    position: absolute;
+left: 3.12%;
+/* right: 87.71%; */
+/* top: 18.38%; */
+margin-top: 30px;
+margin-left: 10px;
+width: 60px;
+/* bottom: 91.05%; */
+
+/* SUBTITLE/BOLD */
+
+font-family: Urbanist;
+font-style: normal;
+font-weight: 900;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height, or 125% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.02em;
+
+/* EXTENSDED PALETTE/Tiny grey */
+
+color: #909090;
+}
+
+
+.container >:nth-child(3){
+    position: absolute;
+    margin-top: 50px;
+}
+/* .container > :nth-child(2){
+    color: red;
+} */
+
+.container > :nth-child(4){
+    position:absolute;
+    margin-top: 100px;
+}
+.container > :nth-child(5){
+    position:absolute;
+    margin-top: 150px;
+}
+.container > :nth-child(6){
+    position:absolute;
+    margin-top: 200px;
+}
+.container > :nth-child(7){
+    position:absolute;
+    margin-top: 250px;
+}
+.container > :nth-child(8){
+    position:absolute;
+    margin-top: 300px;
+}
+.container > :nth-child(9){
+    position:absolute;
+    margin-top: 350px;
+}
+
+
+
+
+/*  CBSC Card ************************** */
+
+.cbscCard {
+    width: 200px;
+   
+}
+
+.cbscCard > div {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+
+
+height: 120px;
+margin-left: 200px;
+
+box-shadow: 10px 10px 100px rgba(0, 0, 0, 0.05);
+border-radius: 10px;
+}
+
+
+.cbscCard >div >img{
+    position: absolute;
+    height: 55px;
+
+/* margin-top: 52px; */
+margin-top: 40px;
+margin-left: 200px  ;
+/* border-radius: 50%; */
+/* border: 2px solid red; */
+}
+.para{
+   position: absolute;
+width: 500px;
+height: 40px;
+/* left: 200px; */
+/* top: 58px; */
+top: 48px;
+margin-left: 300px;
+
+/* H2/BOLD */
+
+font-family: Urbanist;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 40px;
+/* identical to box height, or 125% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.02em;
+
+/* PRIMARY/Polish dark */
+
+color: #394752;
+}
+
+
+/* ********************************************* Side*/
+
+.side{
+    overflow: hidden;
+}

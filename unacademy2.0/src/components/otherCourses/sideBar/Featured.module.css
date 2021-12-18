@@ -1,0 +1,198 @@
+.container{position: absolute;
+    margin-left: 375px;
+}
+.main{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 24px 0px 16px 24px;
+
+position: absolute;
+width: 389px;
+/* width: 300px; */
+/* width: 250px; */
+height: 191px;
+left: 0px;
+top: 54px;
+
+/* PRIMARY/Pearl white */
+
+background: #FFFFFF;
+/* DROP SHADOW/LIGHT */
+
+/* box-shadow: 10px 10px 100px rgba(0, 0, 0, 0.05); */
+border-radius: 10px;
+/* border: 2px solid black; */
+box-shadow:  0 1px 6px rgb(31 31 31 / 12%), 0 1px 4px rgb(31 31 31 / 12%);
+
+}
+
+
+.pic > img{
+    height: 60px;
+    width: 60px;
+}
+
+
+.second{
+    display: flex;
+    flex-direction: column;
+}
+
+.second >:nth-child(1){
+    margin-top: -5px;
+    margin-left: 20px;
+    font-family: Urbanist;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 25px;
+/* identical to box height, or 156% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.02em;
+
+/* PRIMARY/Polish dark */
+
+color: #394752;
+}
+
+.second >:nth-child(2){
+    /* color: red; */
+    width: 230px;
+    /* width: 150px; */
+    margin-left: 20px;
+    margin-top: -10px;
+    font-family: Urbanist;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 15px;
+/* or 125% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.02em;
+
+/* EXTENSDED PALETTE/Tiny grey */
+
+color: #909090;
+}
+
+
+
+/* *******************************Followers */
+.follow{
+    display: flex;
+    flex-direction: row;
+    /* margin-left: 50px; */
+}
+
+.follow >:nth-child(1){
+    margin-left: 20px;
+    font-family: Urbanist;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 25px;
+/* identical to box height, or 156% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.02em;
+
+/* PRIMARY/Polish dark */
+
+color: #394752;
+}
+
+
+.follow >:nth-child(2){
+    font-family: Urbanist;
+    margin-left: 50px;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 25px;
+/* identical to box height, or 156% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.02em;
+
+/* PRIMARY/Polish dark */
+
+color: #394752;
+}
+
+
+
+
+/****************** Watch*********************** */
+
+.watch{
+    display: flex;
+    flex-direction: row;
+}
+
+.watch >:nth-child(1){
+    margin-top: -10px;
+    margin-left: 20px;
+font-family: Urbanist;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height, or 125% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.02em;
+
+/* EXTENSDED PALETTE/Tiny grey */
+
+color: #909090;
+}
+
+
+.watch >:nth-child(2){
+    margin-top: -10px;
+    margin-left: 20px;
+font-family: Urbanist;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height, or 125% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.02em;
+
+/* EXTENSDED PALETTE/Tiny grey */
+
+color: #909090;
+}
+
+
+
+/* *****************************************Featured  Components *****************************/
+/* .fea{ */
+    /* display: flex; */
+    /* flex-direction: row; */
+/* } */
+
+.fea >:nth-child(2){
+
+    margin-left: 430px;
+}
+
+.fea > :nth-child(3){
+    margin-top: 250px;
+}
+.fea >:nth-child(4){
+    margin-top: 250px;
+    margin-left: 430px   ;
+}
+

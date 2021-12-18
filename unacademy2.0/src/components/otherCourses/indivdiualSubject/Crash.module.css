@@ -1,0 +1,49 @@
+.main > :nth-child(1){
+position: absolute;
+width: 155px;
+height: 30px;
+/* margin-top: -350px; */
+margin-top: -80px;
+margin-left: 380px;
+
+
+font-family: Urbanist;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 30px;
+
+display: flex;
+align-items: center;
+letter-spacing: 0.02em;
+
+
+color: #394752;
+
+
+}
+ 
+
+
+ .main > :nth-child(2){
+     cursor: pointer;
+    color: #5CBE81 ;
+    position: absolute;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    /* margin-top: -200px; */
+    margin-top: -80px;
+    margin-left: 900px;
+
+} 
+
+ .popular{
+    /* margin-top: 60px; */
+    margin-top: 200px;
+    margin-left: 270px;
+}

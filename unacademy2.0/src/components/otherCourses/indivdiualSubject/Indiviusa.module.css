@@ -1,0 +1,44 @@
+.container {
+    margin-left: 350px;
+}
+.container > :nth-child(1){
+    font-family: Urbanist;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height, or 150% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.02em;
+
+/* PRIMARY/Polish dark */
+
+color: #394752;
+}
+
+
+.topic > :nth-child(2){
+    margin-left: 280px;
+
+}
+
+.topic > :nth-child(3){
+    margin-left: 560px;
+}
+
+.topic >:nth-child(4){
+    margin-top: 120px;
+
+
+}
+.topic >:nth-child(5){
+    margin-top: 120px;
+    margin-left: 280px;
+}
+.topic >:nth-child(6){
+    margin-top: 120px;
+    margin-left: 560px;
+}
+
