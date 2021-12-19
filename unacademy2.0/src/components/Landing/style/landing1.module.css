@@ -10,7 +10,7 @@
 
 .ldpg_content{
     position: absolute;
-    width: 500px;
+    /* width: 500px; */
     color: #394752;
     left: 104px;
     top: 218px;

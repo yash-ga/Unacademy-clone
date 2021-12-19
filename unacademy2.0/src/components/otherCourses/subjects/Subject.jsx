@@ -4,16 +4,24 @@ import { PopularCourses } from '../PopularCourses'
 import { SubjectItem } from './SubjectItem';
 
 import Style from './Subject.module.css'
+import { useHistory } from 'react-router-dom';
 
 export const Subject = () => {
+  const history = useHistory();
+
+  const handleEnglish = ()=>{
+    history.push("/individual-subject")
+    window.scrollTo(0,0)
+  }
+
     return (
       <div className={Style.container}>
         <p>Subjects</p>
         {/* <SubjectItem /> */}
         <div className={Style.cart}>
-          <SubjectItem sub1="Physics" courses="48 courses" clr="#445FF4" />
-          <SubjectItem sub1="English" courses="48 courses" clr="#00B3B3" />
-          <SubjectItem sub1="Maths" courses="48 courses" clr="#E95952" />
+         <button style={{border:"0px",padding:"0px",marginBottom:"20px"}} ><SubjectItem sub1="Physics" courses="48 courses" clr="#445FF4" /></button> 
+          <button onClick={handleEnglish} style={{border:"0px",padding:"0px"}} ><SubjectItem sub1="English" courses="48 courses" clr="#00B3B3" /></button>
+          <button style={{border:"0px",padding:"0px",marginBottom:"20px",marginLeft:"280px"}}><SubjectItem sub1="Maths" courses="48 courses" clr="#E95952" /></button>
           <SubjectItem sub1="Chemistry" courses="48 courses" clr="#F1B42E" />
           <SubjectItem sub1="Geography" courses="48 courses" clr="#425EED" />
           <SubjectItem

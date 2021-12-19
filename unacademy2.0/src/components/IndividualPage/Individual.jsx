@@ -9,6 +9,7 @@ import four from './images/four.svg'
 import star from './images/star.svg'
 import circleImg1 from './images/circleImg1.svg'
 import circleImg2 from './images/circleImg2.svg'
+import { useHistory } from 'react-router-dom'
 
 const arr1 = [
     {
@@ -51,11 +52,19 @@ const arr1 = [
 ]
 
 export const Individual = () => {
+
+    const history = useHistory();
+
+    const handlePreRecordedVideo = ()=>{
+        history.push("/pre-recorded")
+    }
+
     return (
         <>
             {
                 arr1.map((x) => (
                     <div className="card col-4 mb-5" id={Styles.livecard} key={Math.random(1)}>
+                        <button onClick={handlePreRecordedVideo} style={{display:"inline-block",backgroundColor:"white",border:"0px"}} >
                         <img src={x.img} className="card-img-top" alt="..." id={Styles.imgdiv} />
                         <div className="card-body">
                             <div id={Styles.subjectDiv}>
@@ -74,6 +83,7 @@ export const Individual = () => {
                             </div>
                             <div id={Styles.subtitle}><span className={Styles.mRight}><img src={x.circleimg} alt="..." /></span>{x.name}</div>
                         </div>
+                    </button>
                     </div>
                 ))
             }

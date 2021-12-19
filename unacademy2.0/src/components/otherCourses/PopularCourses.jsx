@@ -3,8 +3,6 @@ import { PopularCoursesItem } from './PopularCoursesItem';
 import Carousel from 'react-elastic-carousel';
 import Style from "./PopularCourses.module.css";
 
-
-
 import img1 from '../../img/other1.1.png';
 import img2 from '../../img/other1.2.png';
 import img3 from '../../img/other1.3.png';
@@ -22,6 +20,7 @@ import star   from '../../img/star.png'
    { width: 768, itemsToShow: 3 },
    { width: 1200, itemsToShow: 4 },
  ];
+
 export const PopularCourses = () => {
     return (
       <div className={Style.main}>
@@ -29,24 +28,26 @@ export const PopularCourses = () => {
         <p>See All</p>
         <div className={Style.popular}>
           <Carousel breakPoints={breakPoints}>
+            <button>
              <PopularCoursesItem
               logo={img1}
               lessons="6 LESSONS"
               lang="English"
               sub="CHEMISTRY"
-              title="Last min. Comprehensive Course   on Unseen Passages"
+              title="Last min. Comprehensive Course on Unseen Passages"
               date="Starts on Dec 4, 2021 • 8 lessons"
               name="Nikit Negi"
               rating="4.8"
               star={star}
               pic={nikita}
             />
+            </button>
             <PopularCoursesItem
               logo={img2}
               lessons="8 LESSONS"
               lang="English"
               sub="ENGLISH  "
-              title="Last min. Comprehensive Course            on Flamingo - Part II "
+              title="Last min. Comprehensive Course on Flamingo - Part II "
               date="Starts on Dec 4, 2021 • 8 lessons"
               name="Shreya Singh"
               rating="4.8"
@@ -58,7 +59,7 @@ export const PopularCourses = () => {
               lessons="10 LESSONS"
               lang="English"
               sub="PHYSICS"
-              title="Last min. Comprehensive Course    on Optics - Part II "
+              title="Last min. Comprehensive Course on Optics - Part II "
               date="Starts on Dec 4, 2021 • 8 lessons"
               name="Lalita Togore"
               rating="4.8"
@@ -77,12 +78,7 @@ export const PopularCourses = () => {
               star={star}
               pic={shneha}
                     /> 
-                    
-                    
-                    
-                   
           </Carousel>
-          
         </div>
       </div>
     );

@@ -1,5 +1,7 @@
 import Styles from './live.module.css'
 import Book from './images/Book.svg'
+
+
 export const CbseNavCard = () => {
     return (
         <div className="row" id={Styles.cbseNavCard}>

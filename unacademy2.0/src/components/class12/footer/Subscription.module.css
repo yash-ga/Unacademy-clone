@@ -6,7 +6,7 @@
     text-align: center;
     padding: 28px 39px;
     position: absolute;
-    width: 207px;
+    width: 220px;
     height: 252px;
     left: 0px;
     top: 150px;
@@ -245,7 +245,7 @@ position: absolute;
 top: -50px;
 font-style: normal;
 font-weight: 900;
-font-size: 46px;
+font-size: 40px;
 line-height: 70px;
 margin-left: 250px;
 width: 1100px;
@@ -278,16 +278,18 @@ top: 150px;
 .main{
     position: absolute;
     top: 5600px;
+    margin-left: 80px;
     /* overflow-x: hidden; */
+    bottom: 40px;
 }
 
 .first{
     margin-top: -200px;
-    margin-left: -330px;
+    margin-left: -370px;
 }
 .sec{
     margin-top: -200px;
-    margin-left: -100px  ;
+    margin-left: -120px  ;
 }
 .third{
     margin-top: -200px;
@@ -296,7 +298,7 @@ top: 150px;
 
 .fourth{
     margin-top: -200px;
-    margin-left: 360px;
+    margin-left: 380px;
     /* background: #5CBE81; */
 }
 

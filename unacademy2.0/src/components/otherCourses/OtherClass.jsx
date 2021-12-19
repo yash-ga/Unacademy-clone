@@ -5,6 +5,7 @@ import { Subject } from './subjects/Subject';
 import { SideBar } from './indivdiualSubject/SideBar'
 import {CbseNavCard} from './sideBar/CbseNavCard'
 import { Featured } from './sideBar/Featured';
+import { Navbar } from '../Landing/Navbar';
 export const OtherClass = () => {
     return (
         <div className={Style.s1}>
@@ -12,9 +13,9 @@ export const OtherClass = () => {
 
             {/* <CbseNavCard /> */}
             {/* </div> */}
+            <Navbar/>
             <div className= {Style.side}>
             <SideBar />
-            
             </div>
             <PopularCourses />
             <Featured />

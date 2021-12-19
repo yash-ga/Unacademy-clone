@@ -26,7 +26,6 @@ export const AppContextProvider = ({children})=>{
         }
         else
         alert("Incorrect Otp")
-
     }
 
     const handleLoginMob = ()=>{

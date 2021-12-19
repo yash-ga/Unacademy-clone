@@ -1,7 +1,9 @@
 import { useContext, useEffect, useRef, useState } from 'react'
 import { AppContext } from '../context/AppContext';
 import styles from './style/loginCreate1.module.css'
+import axios from 'axios'
 
+var key;
 export const LoginCreate1 = () => {
     const [timer, setTimer] = useState(0);
     const [enterOtp,setEnterOtp] = useState('');
@@ -14,7 +16,9 @@ export const LoginCreate1 = () => {
 
     useEffect(() => {
         startCounter();
-        return () => clearInterval(counterRef);
+        return () =>{
+            clearInterval(counterRef);
+        } 
     }, [])
 
     const startCounter = () => {
@@ -30,9 +34,16 @@ export const LoginCreate1 = () => {
         handleGenerateOtp();
     }
 
-    const handleVerify = ()=>{
-        console.log("selectState",selectState)
+    const handleVerify = async()=>{
+        key = localStorage.getItem("newUser")
+        key = JSON.parse(key)
         if(enterOtp.length !== 0 && enterName.length >= 3 && enterEmail.length >= 3 && selectState){
+            const {data} = await axios.post("http://localhost:2860/users",{
+                name: enterName,
+                email: enterEmail,
+                state: selectState,
+                mobile: key
+            })
             verifyOtp(enterOtp);
             setEnterOtp('');
         }

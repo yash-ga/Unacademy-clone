@@ -27,7 +27,9 @@ export const Cbsc12 = () => {
         <Syllabus />
         <TrackCarousel />
         <Subscription />
+        <div style={{marginTop:"4300px"}} >
         <Footer />
+        </div>
       </div>
     );
 }

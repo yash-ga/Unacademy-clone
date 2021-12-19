@@ -15,7 +15,7 @@ export const Nikita = () => {
     const handleWatchNow = ()=>{
         history.push("/loading")
         setTimeout(()=>{
-            history.push("/")
+            history.push("/video")
         },4000)
     }
 

@@ -1,0 +1,196 @@
+.smain{
+    /* height: 800px; */
+    display: flex;
+}
+.logo{
+    margin-left: 105px;
+    margin-top: 23px;
+}
+.plus{
+    height: 339px;
+    width: 594px;
+    margin-left: 53px;
+    margin-top: 165px;
+    border-radius: 0px;
+
+}
+.left{
+   
+    width: 700px;
+    height: 650px;
+    /* background-color: lightcoral; */
+}
+.heading{
+    height: 40px;
+width: 289px;
+margin-left: 26%;
+/* margin-top: 16px; */
+color: #394739;
+/* //styleName: H2/BOLD; */
+font-family: Urbanist;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0.02em;
+text-align: left;
+
+/* border-radius: nullpx; */
+
+}
+.description{
+    height: 30px;
+width: 287px;
+margin-left: 26%;
+margin-top: 27px;
+
+font-family: Urbanist;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 15px;
+letter-spacing: 0.02em;
+text-align: center;
+color: #394739;
+
+
+}
+
+.description1{
+    height: 30px;
+width: 287px;
+margin-left: 26%;
+margin-top: 53px;
+font-family: Urbanist;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 15px;
+letter-spacing: 0.02em;
+text-align: center;
+color: #394739;
+}
+.rheading{
+    height: 40px;
+width: 318px;
+margin-left: 141px;
+/* background-color: #394739; */
+margin-top: 65px;
+/* //styleName: H2/BOLD; */
+font-family: Urbanist;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0.02em;
+text-align: left;
+
+/* border-radius: nullpx; */
+
+}
+/* .Buttons{
+    height: 40px;
+width: 190px;
+margin-left: 240px;
+margin-top: 42px;
+margin-bottom: 23px;
+border-radius: 20px;
+background-color: #394739;
+
+} */
+.btnDiv{
+    background: #FFFFFF;
+box-shadow: inset 0px 1px 0px #B1B1B1, inset 1px 0px 0px #B1B1B1, inset 0px -1px 0px #B1B1B1, inset -1px 0px 0px #B1B1B1;
+border-radius: 25px;
+width:135px;
+height:40px;
+border: 1px solid grey;
+margin-left: 215px;
+font-family: Urbanist;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+align-items: center;
+letter-spacing: 0.02em;
+margin-top: 18px;
+
+}
+.Voucher{
+    margin-top: 20px;
+    margin-left: 90px;
+}
+.i1{
+    height: 80px;
+    margin-top: -22px;
+    border-radius: 6px;
+}
+.imgStyle{
+    width: 600px;
+    height: 190px;
+    margin-left: 0px;
+}
+
+.voucherStyle{
+    width: 450px;
+    margin-left: -23px;
+}
+.i2{
+    height: 86px;
+    width: 500px;
+    margin-left: 0px;
+    margin-top: 14px;
+    border-radius: 6px;
+
+}
+.i3{
+    height: 86px;
+width: 500px;
+margin-left: 0px;
+margin-top:14px;
+border-radius: 6px;
+
+}
+#paid{
+  font-family: Urbanist;
+  font-weight: 900;
+  margin-left: 40%;
+/* background-color: blueviolet; */
+/* border-radius: nullpx; */
+
+}
+.viewall{
+    height: 15px;
+width: 115px;
+/* left: 243px;
+top: 537px; */
+margin-left: 300px;
+margin-top: 10px;
+border-radius: 5px;
+padding: 8px, 16px, 8px, 16px;
+
+}
+.border{
+    height: 44px;
+width: 332px;
+margin-left: 75px;
+margin-top: 20px;
+
+}
+.proceedtopay{
+    height: 37px;
+width: 129px;
+margin-top: 19px ;
+margin-left: -16px;
+background-color: #5CBE81;
+color: white;
+border-radius: 5px;
+font-style: bold;
+border: none;
+
+
+}
+.bottom{
+    display: flex;
+}

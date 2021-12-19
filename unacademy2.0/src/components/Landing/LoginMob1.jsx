@@ -1,22 +1,60 @@
-import { useContext, useState } from 'react'
+import axios from 'axios';
+import { useContext, useEffect, useState } from 'react'
 import { AppContext } from '../context/AppContext'
 import styles from './style/loginMob1.module.css'
 
+var data;
 export const LoginMob1 = ({text1,text2,btn1,btndisable}) => {
     const {loginMobile1,handleGenerateOtp,handleLoginMob,handleCreateAcct1,handleCreateAcct2,loginCreate,handleLoginMob1} = useContext(AppContext);
     const [enteredMobile,setEnteredMobile] = useState("")
 
-    const handleUserMobileNo = () =>{
-        if(loginMobile1 == true && enteredMobile.length === 10){
-            handleGenerateOtp();
-            handleLoginMob1();
+    useEffect(()=>{
+        const fetchData = ()=>{
+            axios.get("http://localhost:2860/users")
+            .then(res => data = res.data.users )
         }
+        fetchData();
+    },[])
+
+    const handleUserMobileNo = () =>{
+        let match = false;
+        if(loginMobile1 == true && enteredMobile.length === 10){
+            data.forEach(({mobile})=>{
+                if(mobile == enteredMobile){
+                    handleGenerateOtp();
+                    handleLoginMob1();
+                    setEnteredMobile("")
+                    match = true;
+                    return;
+                }
+            })
+            if(match === false)
+            alert("Please Login")
+        }
+
         else if(loginCreate == true && enteredMobile.length === 10){
+            let match = false;
+            data.map(({mobile})=>{
+                if(mobile == enteredMobile){
+                    setEnteredMobile("");
+                    alert("Number is already registered")
+                    //If phone get matched user already exists
+                    match = true;
+                }
+            })
+            localStorage.setItem("newUser",JSON.stringify(enteredMobile))
+            //If phone no. doesn't get matched
+            if(match === false){
             handleCreateAcct2();
             handleGenerateOtp();
+            setEnteredMobile("")
+            }
         }
-        else
-        alert("Enter Valid 10 Digit Number");
+
+        else{
+            alert("Enter Valid 10 Digit Number");
+            setEnteredMobile("")
+        }
     }
 
     const handleToggleLogin = ()=>{
@@ -39,7 +77,7 @@ export const LoginMob1 = ({text1,text2,btn1,btndisable}) => {
                     <img style={{marginRight:"16px"}} src="/Icons/flag.svg" alt="..." />
                     <span>+91</span>
                 </span>
-                <input type="text" className={styles.loginMob1_input_text} placeholder="Enter Your Mobile Number" onChange={(e) => setEnteredMobile(e.target.value)} />
+                <input type="text" value={enteredMobile} className={styles.loginMob1_input_text} placeholder="Enter Your Mobile Number" onChange={(e) => setEnteredMobile(e.target.value)} />
             </div>
             <div>
             </div>

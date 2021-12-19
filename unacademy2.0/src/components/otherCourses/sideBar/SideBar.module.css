@@ -46,12 +46,12 @@ color: #394752;
 /* ************************COntainer */
 
 .container{
-    margin-left: 20px;
+    margin-left: 90px;
     width: 180px;
     /* border: 5px solid black; */
     position: fixed;
     z-index: 1;
-
+    margin-top: 0px;
     cursor: pointer;
 }
 .self{
@@ -151,13 +151,14 @@ margin-left: 200px  ;
 /* border: 2px solid red; */
 }
 .para{
-   position: absolute;
-width: 500px;
-height: 40px;
+    margin-top: 46px;
+   /* position: absolute; */
+    /* width: 500px; */
+    /* height: 40px; */
 /* left: 200px; */
 /* top: 58px; */
-top: 48px;
-margin-left: 300px;
+    top: 48px;
+    margin-left: 300px;
 
 /* H2/BOLD */
 
@@ -182,4 +183,8 @@ color: #394752;
 
 .side{
     overflow: hidden;
+}
+
+.s1{
+    margin-top: 60px;
 }

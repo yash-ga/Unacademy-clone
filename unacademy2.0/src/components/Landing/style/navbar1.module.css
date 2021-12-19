@@ -7,6 +7,9 @@
     justify-content: space-between;
     /* border: 1px solid red; */
     margin: 0px;
+    position: fixed;
+    z-index: 2;
+    background-color: white;
 }
 
 .navbar_container_img>img{

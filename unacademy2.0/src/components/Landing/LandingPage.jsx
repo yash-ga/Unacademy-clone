@@ -12,9 +12,9 @@ export const LandingPage = ()=>{
             <Landing2/>
             <Landing3/>
             <Landing4/>
-            <div className={styles.backToTop_btn}>
+            {/* <div className={styles.backToTop_btn}>
             <button onClick={()=>window.scrollTo(0, 0)} >Back to top</button>
-            </div>
+            </div> */}
             <Footer/>
         </div>
     )

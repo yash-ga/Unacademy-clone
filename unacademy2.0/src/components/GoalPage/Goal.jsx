@@ -46,9 +46,9 @@ const Goal = () => {
                         <div className="row">
                             <GoalCard3/>
                         </div>
-                        <Footer/>
                     </div>
                 </div>
+                <Footer/>
             </div>
         </div>
     )

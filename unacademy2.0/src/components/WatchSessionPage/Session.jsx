@@ -1,3 +1,4 @@
+import { Footer } from '../class12/footer/Footer'
 import { Navbar } from '../Landing/Navbar'
 import { More } from './More'
 import { Nikita } from './nikita/Nikita'
@@ -34,6 +35,7 @@ export const Session = () => {
                         <PlusCourses />
                     </div>
                 </div>
+                <Footer/>
             </div>
 
         </div>

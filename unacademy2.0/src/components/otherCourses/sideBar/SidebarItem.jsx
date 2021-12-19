@@ -6,8 +6,6 @@ export const SidebarItem = ({title,pic}) => {
         <div className={Style.main}>
             <img src={pic} alt="pic" />
             <p>{ title}</p>
-
-            
         </div>
     )
 }

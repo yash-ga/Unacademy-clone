@@ -6,7 +6,7 @@ export const Comments=({name,desc,image})=>{
         <div className={Styles.name}>{name} </div>
 
         <div className={Styles.description}>{desc}</div>
-        <div className={Styles.image}><img src={image} alt="..." /></div>
+        <div className={Styles.image}><img src={image} width={45} alt="..." /></div>
         </div>
     )
 }
