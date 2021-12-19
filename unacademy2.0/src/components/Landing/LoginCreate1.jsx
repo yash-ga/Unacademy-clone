@@ -40,14 +40,18 @@ export const LoginCreate1 = () => {
         localStorage.setItem("userName",JSON.stringify(enterName)); // Storing userName in localStorage when user creating account  
 
         if(enterOtp.length !== 0 && enterName.length >= 3 && enterEmail.length >= 3 && selectState){
-            const {data} = await axios.post("http://localhost:2860/users",{
-                name: enterName,
-                email: enterEmail,
-                state: selectState,
-                mobile: key
-            })
-            verifyOtp(enterOtp);
-            setEnterOtp('');
+            try{
+                const {data} = await axios.post("http://localhost:2860/users",{
+                    name: enterName,
+                    email: enterEmail,
+                    state: selectState,
+                    mobile: key
+                })
+                verifyOtp(enterOtp);
+                setEnterOtp('');
+            }catch(err){
+                alert("Something went wrong")
+            }
         }
         else
         alert("Enter Proper Details")
