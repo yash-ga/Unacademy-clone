@@ -1,70 +1,115 @@
-# Getting Started with Create React App
+# Unacademy Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was created using create-react-app Express and MongoDB Atlas
 
-## Available Scripts
+## How to run app
 
-In the project directory, you can run:
+Clone the app
 
-### `npm start`
+`git clone https://github.com/yash-ga/Unacademy-clone.git`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+  
+  
+ 
+ ### How to run frontend
 
-### `npm test`
+`cd Unacademy-clone/unacademy2.0`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+`npm install`
 
-### `npm run build`
+`npm start`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Live Demo:
+`https://github.com/yash-ga/Unacademy-clone.git`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Unacademy clone:
 
-### `npm run eject`
+`Unacademy is India’s largest learning platform.
+ They Prepare for Competitive exams (UPSC CSE-GS IIT JEE NEET UG  Bank Exam GATE & ESE UPSC CSE-Optional).
+ And They prepare for Class 6 to 12 (CBSC Maharastra Board)`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### TEAM MEMBERS:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+#### Web Developer
+`Shashank Shekhar Singh`
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+`Kapil Morge`
 
-## Learn More
+`Yash Garg`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+`Sharoof Khan`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### Ui Ux Designer
 
-### Code Splitting
+`Manmohan Singh Rawat`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+`Shivam Kantta`
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Pages
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+`Landing Page`
 
-### Advanced Configuration
+`signup `
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+`Individual Class`
 
-### Deployment
+`Individual Subject`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+`Subscription Page`
 
-### `npm run build` fails to minify
+`payment page`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Tech stack used
+
+`React`
+
+`CSS`
+
+`Javascript`
+`Bootstraps`
+
+`MongoDb Atlas`
+`Express (Node Js framework)`
+
+### Check Blog on hashnode
+
+### (`Blog Link`)
+
+### Screenshots
+
+### Landing page
+
+[![landingpage1.png](https://i.postimg.cc/VNRzB976/landingpage1.png)](https://postimg.cc/GB40bDnw)
+
+### Sign Up Page:
+[![signup.png](https://i.postimg.cc/gJ1RmP31/signup.png)](https://postimg.cc/dkmDjpH9)
+
+### Login Up Page:
+[![login.png](https://i.postimg.cc/zv5zntNV/login.png)](https://postimg.cc/ft2QsvJN)
+
+### Goal Page:
+[![goalPage.png](https://i.postimg.cc/0yv4PTf6/goalPage.png)](https://postimg.cc/pp0CB13x)
+
+### Class Page :
+[![Class12.png](https://i.postimg.cc/pTC76q89/Class12.png)](https://postimg.cc/8JFtFdZD)
+
+### Live Class Page
+[![freeLive.png](https://i.postimg.cc/ZKxcFC8R/freeLive.png)](https://postimg.cc/XpXdnNDS)
+
+### Other Class Page
+
+[![Other-Page.png](https://i.postimg.cc/SK2C5sMc/Other-Page.png)](https://postimg.cc/GBR4Tbzp)
+
+### Subscription Page
+[![sub-Scription.png](https://i.postimg.cc/LsQYHMz2/sub-Scription.png)](https://postimg.cc/HJ5s2RZh)
+
+### Payment page
+[![payment1.png](https://i.postimg.cc/WpdpkHkY/payment1.png)](https://postimg.cc/Sjpp0VVc)
+[![payment2.png](https://i.postimg.cc/zvK9kK5v/payment2.png)](https://postimg.cc/QKN48BFZ)
+
+### [Click Here!](https://github.com/yash-ga/Unacademy-clone.git)
