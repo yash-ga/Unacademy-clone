@@ -68,6 +68,7 @@
    color: #394752;
    letter-spacing: 0.02em;
    margin: 6px 0px;
+   text-align: start;
    }
    
    #subtitle{
@@ -82,6 +83,7 @@
        letter-spacing: 0.02em;
        color: #394752;
        margin: 6px 0px;
+       text-align: start;
    }
 .mRight{
     margin-right: 10px;

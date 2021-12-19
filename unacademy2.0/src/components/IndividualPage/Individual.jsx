@@ -77,7 +77,7 @@ export const Individual = () => {
                             <div id={Styles.subtitle}>
                                 Starts on Dec 4, 2021 • 8 lessons
                             </div>
-                            <div>
+                            <div style={{textAlign:"start"}}>
                                 <span className={Styles.mRight}><img src={star} alt="..." /></span>
                                 <img src={four} alt="" />
                             </div>

@@ -88,22 +88,26 @@ text-align: left;
 /* border-radius: nullpx; */
 
 }
-/* .Buttons{
-    height: 40px;
-width: 190px;
-margin-left: 240px;
-margin-top: 42px;
-margin-bottom: 23px;
-border-radius: 20px;
-background-color: #394739;
+#button{
+    border-radius: 20px;
+    background-color: #394752;
+    width:91px;
+    font-family:Urbanist;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    align-items: center;
+    letter-spacing: 0.02em;
 
-} */
+}
 .btnDiv{
     background: #FFFFFF;
 box-shadow: inset 0px 1px 0px #B1B1B1, inset 1px 0px 0px #B1B1B1, inset 0px -1px 0px #B1B1B1, inset -1px 0px 0px #B1B1B1;
 border-radius: 25px;
-width:135px;
-height:40px;
+width:156px;
+height:45px;
 border: 1px solid grey;
 margin-left: 215px;
 font-family: Urbanist;
