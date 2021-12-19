@@ -36,7 +36,6 @@
 .Button {
   background-color: #08bd80;
   position: relative;
-
   border: none;
   justify-content: center;
   font-size: 16px;
@@ -53,6 +52,10 @@
   cursor: pointer;
   border-radius: 6px;
   margin-top: 90px;
+}
+
+.Button:hover{
+  background-color: rgb(72, 72, 221);
 }
 
 .subscription{

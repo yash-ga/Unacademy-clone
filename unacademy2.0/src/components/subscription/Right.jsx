@@ -1,6 +1,7 @@
 import Styles from "./subscription.module.css"
 import { useCallback } from "react";
 import useRazorpay, { RazorpayOptions } from "react-razorpay";
+import { Link } from "react-router-dom";
 const styles = {
     btn: {
         background: "#394752",
@@ -54,7 +55,9 @@ export const Right = () => {
     return (
         <div>
             <div className={Styles.rheading}>Class 12 Subscription</div>
-            <div className={Styles.btnDiv} style={{ height: "38px", width: "161px" }}><span style={{ marginLeft: "10px" }}>Plus</span> <span style={{ marginLeft: "15px" }}><button type="button" style={styles.btn} className="btn btn-dark">Iconic</button></span></div>
+            <div className={Styles.btnDiv} style={{ height: "38px", width: "161px" }}><span style={{ marginLeft: "10px" }}>Plus</span> <span style={{ marginLeft: "15px" }}>
+              <Link to="/plus" ><button type="button" style={styles.btn} className="btn btn-dark">Iconic</button></Link>  
+                </span></div>
             <div className={Styles.Voucher}><img className={Styles.voucherStyle} src="./imagesByYash/EMIVOUCHER.png" alt="..." /></div>
             <div >
                 <div className={Styles.i1} > <img className={Styles.imgStyle} src="./imagesByYash/s3.png" alt="..." /></div>

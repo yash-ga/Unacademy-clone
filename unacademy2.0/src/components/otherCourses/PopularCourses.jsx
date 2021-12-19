@@ -13,6 +13,7 @@ import shreya from '../../img/Shreya.png';
 import lalita from '../../img/Lalita.png';
 import shneha from '../../img/Shneha.png';
 import star   from '../../img/star.png'
+import { Link } from 'react-router-dom';
 
  const breakPoints = [
    { width: 1, itemsToShow: 1 },
@@ -28,7 +29,7 @@ export const PopularCourses = () => {
         <p>See All</p>
         <div className={Style.popular}>
           <Carousel breakPoints={breakPoints}>
-            <button>
+            <Link to="/pre-recorded" >
              <PopularCoursesItem
               logo={img1}
               lessons="6 LESSONS"
@@ -41,7 +42,7 @@ export const PopularCourses = () => {
               star={star}
               pic={nikita}
             />
-            </button>
+            </Link>
             <PopularCoursesItem
               logo={img2}
               lessons="8 LESSONS"

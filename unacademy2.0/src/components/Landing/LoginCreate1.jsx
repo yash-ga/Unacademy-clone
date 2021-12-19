@@ -3,7 +3,9 @@ import { AppContext } from '../context/AppContext';
 import styles from './style/loginCreate1.module.css'
 import axios from 'axios'
 
-var key;
+var key = localStorage.getItem("newUser") //Getting phone number from localStorage
+key = JSON.parse(key)
+
 export const LoginCreate1 = () => {
     const [timer, setTimer] = useState(0);
     const [enterOtp,setEnterOtp] = useState('');
@@ -35,8 +37,8 @@ export const LoginCreate1 = () => {
     }
 
     const handleVerify = async()=>{
-        key = localStorage.getItem("newUser")
-        key = JSON.parse(key)
+        localStorage.setItem("userName",JSON.stringify(enterName)); // Storing userName in localStorage when user creating account  
+
         if(enterOtp.length !== 0 && enterName.length >= 3 && enterEmail.length >= 3 && selectState){
             const {data} = await axios.post("http://localhost:2860/users",{
                 name: enterName,
@@ -52,6 +54,7 @@ export const LoginCreate1 = () => {
     }
 
     return (
+        
         <>
             <h2 className={styles.logincreate1_title}>Enter OTP</h2>
 
@@ -62,7 +65,7 @@ export const LoginCreate1 = () => {
                     <img style={{ marginRight: "16px" }} src="/Icons/flag.svg" alt="..." />
                     <span>+91</span>
                 </span>
-                <input type="text" disabled className={styles.logincreate1_input_no} placeholder="1122334455" />
+                <input type="text" disabled className={styles.logincreate1_input_no} placeholder= {key} />
             </div>
 
             <input className={styles.logincreate1_otp} value={enterOtp} type="number" placeholder='OTP' onChange={(e) => setEnterOtp(e.target.value)} />

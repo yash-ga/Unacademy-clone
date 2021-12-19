@@ -64,6 +64,12 @@ function App() {
           <Route exact path="/individual-subtopic">
             <IndividualPage/>
           </Route>
+          <Route exact path="/plus">
+            <SubIconicPage/>
+          </Route>
+          <Route exact path="/iconic" >
+            <SubscriptionPage/>
+          </Route>
         </Switch>
     </div>
   );

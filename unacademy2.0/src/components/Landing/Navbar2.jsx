@@ -8,6 +8,9 @@ export const Navbar2 = () => {
         alert("Logout")
     }
 
+    let keyName = localStorage.getItem("userName")
+    keyName = JSON.parse(keyName)
+
     return (
         <>
             <div className={styles.navbar_container}>
@@ -20,7 +23,7 @@ export const Navbar2 = () => {
                 </div>
                 <div>
                     <img src="./Images/search.png" width={300} alt="img" />
-                    <button className={styles.nvbr_user_nm} onClick={handleLogout} >Username</button>
+                    <button className={styles.nvbr_user_nm} onClick={handleLogout} >{keyName}</button>
                 </div>
             </div>
         </>

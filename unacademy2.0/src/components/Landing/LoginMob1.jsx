@@ -19,17 +19,18 @@ export const LoginMob1 = ({text1,text2,btn1,btndisable}) => {
     const handleUserMobileNo = () =>{
         let match = false;
         if(loginMobile1 == true && enteredMobile.length === 10){
-            data.forEach(({mobile})=>{
+            data?.forEach(({mobile})=>{
                 if(mobile == enteredMobile){
                     handleGenerateOtp();
                     handleLoginMob1();
                     setEnteredMobile("")
+                    localStorage.setItem("loginUser",JSON.stringify(enteredMobile))
                     match = true;
                     return;
                 }
             })
             if(match === false)
-            alert("Please Login")
+            alert("Please Create Your Account")
         }
 
         else if(loginCreate == true && enteredMobile.length === 10){
