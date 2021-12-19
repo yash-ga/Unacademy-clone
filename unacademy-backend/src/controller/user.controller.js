@@ -14,7 +14,7 @@ router.get("", async(req, res) =>{
 })
 
 router.delete("/:id", async(req, res) => {
-    const user = await Users.deleteOne({_id:req.params.id})
+    const user = await Users.findByIdAndDelete({_id:req.params.id})
     return res.status(200).send({user})
 })
 
